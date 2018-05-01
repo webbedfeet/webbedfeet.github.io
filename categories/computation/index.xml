@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computation on Abhijit Dasgupta</title>
+    <link>/categories/computation/</link>
+    <description>Recent content in Computation on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/computation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some thoughts on the downsides of current Data Science practice</title>
+      <link>/post/some-thoughts-on-the-downsides-of-current-data-science-practice/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/some-thoughts-on-the-downsides-of-current-data-science-practice/</guid>
+      <description>Bert Huang has a nice blog talking about poor results of ML/AI algorithms in &amp;ldquo;wild&amp;rdquo; data, which echos some of my experience and thoughts. His conclusions are worth thinking about, IMO.
+ 1. Big data is complex data. As we go out and collect more data from a finite world, we&#39;re necessarily going to start collecting more and more interdependent data. Back when we had hundreds of people in our databases, it was plausible that none of our data examples were socially connected.</description>
+    </item>
+    
+    <item>
+      <title>The need for documenting functions</title>
+      <link>/post/the-need-for-documenting-functions/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-need-for-documenting-functions/</guid>
+      <description>My current work usually requires me to work on a project until we can submit a research paper, and then move on to a new project. However, 3-6 months down the road, when the reviews for the paper return, it is quite common to have to do some new analyses or re-analyses of the data. At that time, I have to re-visit my code!
+One of the common problems I (and I&amp;rsquo;m sure many of us) have is that we tend to hack code and functions with the end in mind, just getting the job done.</description>
+    </item>
+    
+    <item>
+      <title>Converting images in Python</title>
+      <link>/post/converting-images-in-python/</link>
+      <pubDate>Thu, 29 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/converting-images-in-python/</guid>
+      <description>I had a recent request to convert an entire folder of JPEG images into EPS or similar vector graphics formats. The client was on a Mac, and didn&amp;rsquo;t have ImageMagick. I discovered the Python Image Library  to be enormously useful in this, and allowed me to implement the conversion in around 10 lines of Python code!!!
+import Image from glob import glob jpgfiles = glob(&#39;*.jpg&#39;) for u in jpgfiles: out = u.</description>
+    </item>
+    
+    <item>
+      <title>SAS, R and categorical variables</title>
+      <link>/post/sas-r-and-categorical-variables/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sas-r-and-categorical-variables/</guid>
+      <description>One of the disappointing problems in SAS (as I need PROC MIXED for some analysis) is to recode categorical variables to have a particular reference category. In R, my usual tool, this is rather easy both to set and to modify using the relevel command available in base R (in the stats package). My understanding is that this is actually easy in SAS for GLM, PHREG and some others, but not in PROC MIXED.</description>
+    </item>
+    
+    <item>
+      <title>Forest plots using R and ggplot2</title>
+      <link>/post/forest-plots-using-r-and-ggplot2/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/forest-plots-using-r-and-ggplot2/</guid>
+      <description>Forest plots are most commonly used in reporting meta-analyses, but can be profitably used to summarise the results of a fitted model. They essentially display the estimates for model parameters and their corresponding confidence intervals.
+Matt Shotwell just posted a message to the R-help mailing list with his lattice-based solution to the problem of creating forest plots in R. I just figured out how to create a forest plot for a consulting report using ggplot2.</description>
+    </item>
+    
+    <item>
+      <title>A small customization of ESS</title>
+      <link>/post/a-small-customization-of-ess/</link>
+      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-small-customization-of-ess/</guid>
+      <description>JD Long (at Cerebral Mastication) posted a question on Twitter about an artifact in ESS, where typing &amp;ldquo;&amp;rdquo; gets you &amp;ldquo;&amp;lt;-&amp;ldquo;. This is because in the early days of S+, &amp;ldquo;&amp;rdquo; was an allowed assignment operator, and ESS was developed in that era. Later, it was disallowed in favor of &amp;ldquo;&amp;lt;-&amp;rdquo; and &amp;ldquo;=&amp;rdquo;, so ESS was modified to map &amp;ldquo;_&amp;rdquo; to &amp;ldquo;&amp;lt;-&amp;ldquo;. Now I like the typing convenience of this map, and I don&amp;rsquo;t use underscores in my variable names, so I was fine.</description>
+    </item>
+    
+    <item>
+      <title>Quick and dirty parallel processing in R</title>
+      <link>/post/quick-and-dirty-parallel-processing-in-r/</link>
+      <pubDate>Fri, 30 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quick-and-dirty-parallel-processing-in-r/</guid>
+      <description>R has some powerful tools for parallel processing, which I discovered while searching for ways to fully utilize my 8-core computer at work. What surprised me is how easy it is&amp;hellip;about 6 lines of code, if that. Given that I wasn&amp;rsquo;t allowed to install heavy duty parallel-processing systems like MPICH on the computer, I found that the library SNOW fit the bill nicely through its use of sockets. I also discovered the libraries foreach and iterators, which were released to the community by the development team at Revolution R.</description>
+    </item>
+    
+    <item>
+      <title>Floating point pitfalls</title>
+      <link>/post/floating-point-pitfalls/</link>
+      <pubDate>Sun, 05 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/floating-point-pitfalls/</guid>
+      <description>John D. Cook over at the Endeavour has a series of articles talking about floating-point arithmetic and how it can burn us in computing statistics like the standard deviation, correlation and regression coefficients using the book formulae. Specially enlightening for me was the trick of using the Taylor series expansion of log(1+x) for small values of x, since the error is actually quite small. Fantastic points, John!!
+A good summary of his points can be found here</description>
+    </item>
+    
+    <item>
+      <title>Easy (?) way to tack Fortran onto Python</title>
+      <link>/post/easy-way-to-tack-fortran-onto-python/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/easy-way-to-tack-fortran-onto-python/</guid>
+      <description>A recent post on Walking Randomly gave a nice example of using the Python ctypes module to load Fortran functions that have been compiled into a shared library (.so) or DLL (.dll). This seems an easier option than using f2py or pyfort, which have not been working well for me.</description>
+    </item>
+    
+    <item>
+      <title>Workflow with Python and R</title>
+      <link>/post/workflow-with-python-and-r/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/workflow-with-python-and-r/</guid>
+      <description>I seem to be doing more and more with Python for work over and above using it as a generic scripting language. R has been my workhorse for analysis for a long time (15+ years in various incarnations of S+ and R), but it still has some deficiencies. I&amp;rsquo;m finding Python easier and faster to work with for large data sets. I&amp;rsquo;m also a bit happier with Python&amp;rsquo;s graphical capabilities via matplotlib, which allows dynamic updating of graphs _a la _Matlab, another drawback that R has despite great graphical capabilities.</description>
+    </item>
+    
+  </channel>
+</rss>

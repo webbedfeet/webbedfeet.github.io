@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAS on Abhijit Dasgupta</title>
+    <link>/tags/sas/</link>
+    <description>Recent content in SAS on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Thu, 23 Feb 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pocketbook costs of software</title>
+      <link>/post/pocketbook-costs-of-software-2/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pocketbook-costs-of-software-2/</guid>
+      <description>I have always been provided SAS as part of my job, so I never really realized how much it cost. I&amp;rsquo;ve bought Stata before, and of course R :). I recently found out how much a reasonable bundle of SAS modules along with base SAS costs per year per seat, at least under the GSA. I tried finding out how much IBM SPSS is for a comparable bundle, but their web page was &amp;ldquo;not available&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Pocketbook costs of software</title>
+      <link>/post/pocketbook-costs-of-software/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pocketbook-costs-of-software/</guid>
+      <description>I have always been provided SAS as part of my job, so I never really realized how much it cost. I&amp;rsquo;ve bought Stata before, and of course R :). I recently found out how much a reasonable bundle of SAS modules along with base SAS costs per year per seat, at least under the GSA. I tried finding out how much IBM SPSS is for a comparable bundle, but their web page was &amp;ldquo;not available&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>SAS, R and categorical variables</title>
+      <link>/post/sas-r-and-categorical-variables/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sas-r-and-categorical-variables/</guid>
+      <description>One of the disappointing problems in SAS (as I need PROC MIXED for some analysis) is to recode categorical variables to have a particular reference category. In R, my usual tool, this is rather easy both to set and to modify using the relevel command available in base R (in the stats package). My understanding is that this is actually easy in SAS for GLM, PHREG and some others, but not in PROC MIXED.</description>
+    </item>
+    
+  </channel>
+</rss>

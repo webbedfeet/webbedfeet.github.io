@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Abhijit Dasgupta</title>
+    <link>/categories/data-science/</link>
+    <description>Recent content in Data Science on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Thu, 20 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quirks about running Rcpp on Windows through RStudio</title>
+      <link>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</guid>
+      <description>Quirks about running Rcpp on Windows through RStudio This is a quick note about some tribulations I had running Rcpp (v. 0.12.12) code through RStudio (v. 1.0.143) on a Windows 7 box running R (v. 3.3.2). I also have RTools v. 3.4 installed. I fully admit that this may very well be specific to my box, but I suspect not.
+I kept running into problems with Rcpp complaining that (a) RTools wasn&amp;rsquo;t installed, and (b) the C++ compiler couldn&amp;rsquo;t find Rcpp.</description>
+    </item>
+    
+    <item>
+      <title>Some thoughts on the downsides of current Data Science practice</title>
+      <link>/post/some-thoughts-on-the-downsides-of-current-data-science-practice/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/some-thoughts-on-the-downsides-of-current-data-science-practice/</guid>
+      <description>Bert Huang has a nice blog talking about poor results of ML/AI algorithms in &amp;ldquo;wild&amp;rdquo; data, which echos some of my experience and thoughts. His conclusions are worth thinking about, IMO.
+ 1. Big data is complex data. As we go out and collect more data from a finite world, we&#39;re necessarily going to start collecting more and more interdependent data. Back when we had hundreds of people in our databases, it was plausible that none of our data examples were socially connected.</description>
+    </item>
+    
+    <item>
+      <title>Annotated Facets with ggplot2</title>
+      <link>/post/annotated-facets-with-ggplot2/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/annotated-facets-with-ggplot2/</guid>
+      <description>I was recently asked to do a panel of grouped boxplots of a continuous variable, with each panel representing a categorical grouping variable. This seems easy enough with ggplot2 and the facet_wrap function, but then my collaborator wanted p-values on the graphs! This post is my approach to the problem.
+First of all, one caveat. I&amp;rsquo;m a huge fan of Hadley Wickham&amp;rsquo;s tidyverse and so most of my code will reflect this ethos, including packages and pipes.</description>
+    </item>
+    
+    <item>
+      <title>A follow-up to Crowdsourcing Research</title>
+      <link>/post/a-follow-up-to-crowdsourcing-research/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-follow-up-to-crowdsourcing-research/</guid>
+      <description>Last month I published some thoughts on crowdsourcing research, inspired by Anthony Goldbloom&amp;rsquo;s talk at Statistical Programming DC on the Kaggle experience. Today, I found a rather similar discussion on crowdsourcing research (on the online version of the magazine Good) as a potential way to increase the accuracy of scientific research and reducing bias. I think more consideration needs to be made both by academia, funding agencies, journals and consumers of scientific and technological research to break silos and make progress accurate and reproducible, and finding new ways of preserving the profit imperative in technological progress that allows for the sharing and crowdsourcing of knowledge and research progress.</description>
+    </item>
+    
+    <item>
+      <title>Crowdsourcing research</title>
+      <link>/post/crowdsourcing-research/</link>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/crowdsourcing-research/</guid>
+      <description>Last evening, Anthony Goldbloom, the founder of Kaggle.com, gave a very nice talk at a joint Statistical Programming DC/Data Science DC event about the Kaggle experience and what can be learned from the results of their competitions. One of the take away messages was that crowdsourcing data problems to a diligent and motivated group of entrepreneurial data scientists can get you to the threshold of extracting signal and patterns from data far more quickly than if a closed and siloed group of analysts worked on the problem.</description>
+    </item>
+    
+    <item>
+      <title>Reading fixed width formats in the Hadleyverse</title>
+      <link>/post/reading-fixed-width-formats-in-the-hadleyverse/</link>
+      <pubDate>Sun, 19 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/reading-fixed-width-formats-in-the-hadleyverse/</guid>
+      <description>This is an update to a previous post on reading fixed width formats in R.
+A new addition to the Hadleyverse is the package readr, which includes a function read_fwf to read fixed width format files. I&amp;rsquo;ll compare the LaF approach to the readr approach using the same dataset as before. The variable wt is generated from parsing the Stata load file as before.
+I want to read all the data in two columns: DRG and HOSPID.</description>
+    </item>
+    
+  </channel>
+</rss>

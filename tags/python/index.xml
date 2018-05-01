@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Abhijit Dasgupta</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Mon, 01 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating new data with max values for each subject</title>
+      <link>/post/creating-new-data-with-max-values-for-each-subject-2/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creating-new-data-with-max-values-for-each-subject-2/</guid>
+      <description>We have a data set dat with multiple observations per subject. We want to create a subset of this data such that each subject (with ID giving the unique identifier for the subject) contributes the observation where the variable X takes it&amp;rsquo;s maximum value for that subject.
+R solutions Hadleyverse solutions Using the excellent R package dplyr, we can do this using windowing functions included in dplyr. The following solution is available on StackOverflow, by junkka, and gets around the real possibility that multiple observations might have the same maximum value of X by choosing one of them.</description>
+    </item>
+    
+    <item>
+      <title>Munging fixed width formats in Python</title>
+      <link>/post/munging-fixed-width-formats-in-python/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/munging-fixed-width-formats-in-python/</guid>
+      <description>In a previous post, I described how to munge fixed width format data in R. I also developed Python code for the same use case, which is described in this IPython Notebook. This seems the easiest way to present this given Wordpress.com&amp;rsquo;s restriction on iframe objects.</description>
+    </item>
+    
+    <item>
+      <title>Practical Data Science Cookbook</title>
+      <link>/post/practical-data-science-cookbook/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/practical-data-science-cookbook/</guid>
+      <description>Practical Data Science Cookbook My friends Sean Murphy, Ben Bengfort, Tony Ojeda and I recently published a book, Practical Data Science Cookbook. All of us are heavily involved in developing the data community in the Washington DC metro area, serving on the Board of Directors of Data Community DC. Sean and Ben co-organize the meetup Data Innovation DC and I co-organize the meetup Statistical Programming DC.
+Our intention in writing this book is to provide the data practitioner some guidance about how to navigate the data science pipeline, from data acquisition to final reports and data applications.</description>
+    </item>
+    
+    <item>
+      <title>Converting images in Python</title>
+      <link>/post/converting-images-in-python/</link>
+      <pubDate>Thu, 29 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/converting-images-in-python/</guid>
+      <description>I had a recent request to convert an entire folder of JPEG images into EPS or similar vector graphics formats. The client was on a Mac, and didn&amp;rsquo;t have ImageMagick. I discovered the Python Image Library  to be enormously useful in this, and allowed me to implement the conversion in around 10 lines of Python code!!!
+import Image from glob import glob jpgfiles = glob(&#39;*.jpg&#39;) for u in jpgfiles: out = u.</description>
+    </item>
+    
+    <item>
+      <title>Python and Excel</title>
+      <link>/post/32/</link>
+      <pubDate>Fri, 24 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/32/</guid>
+      <description>Excel is unfortunately the lingua franca of data delivery (at least in small amounts) from my collaborators. Often I have to merge several disparate bits of information from several Excel files together. I used to do this using R, since that&amp;rsquo;s what I&amp;rsquo;ve known for many years.
+Now, of course, I&amp;rsquo;ve discovered Python!!! I fortunately discovered the excellent xlrd and xlwt packages by John Machin, and the subsequent addition of the xlutils package.</description>
+    </item>
+    
+    <item>
+      <title>Easy (?) way to tack Fortran onto Python</title>
+      <link>/post/easy-way-to-tack-fortran-onto-python/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/easy-way-to-tack-fortran-onto-python/</guid>
+      <description>A recent post on Walking Randomly gave a nice example of using the Python ctypes module to load Fortran functions that have been compiled into a shared library (.so) or DLL (.dll). This seems an easier option than using f2py or pyfort, which have not been working well for me.</description>
+    </item>
+    
+    <item>
+      <title>Genz-Bretz multivariate normal in Python</title>
+      <link>/post/genz-bretz-multivariate-normal-in-python/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/genz-bretz-multivariate-normal-in-python/</guid>
+      <description>I&amp;rsquo;ve been fighting for some time to try and get Genz-Bretz&amp;rsquo;s method for calculating orthant probabilities in multivariate normal distributions imported into Python. I downloaded the fortran code from Alan Genz&amp;rsquo;s site and was unsuccessful in using f2py to link it with Python. However, I discovered the usefulness of the Python_ ctypes_ module in linking with shared libraries (see here). So, I compiled the fortran code using
+gfortran mvtdstpack.f -shared -o libmvt.</description>
+    </item>
+    
+    <item>
+      <title>Workflow with Python and R</title>
+      <link>/post/workflow-with-python-and-r/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/workflow-with-python-and-r/</guid>
+      <description>I seem to be doing more and more with Python for work over and above using it as a generic scripting language. R has been my workhorse for analysis for a long time (15+ years in various incarnations of S+ and R), but it still has some deficiencies. I&amp;rsquo;m finding Python easier and faster to work with for large data sets. I&amp;rsquo;m also a bit happier with Python&amp;rsquo;s graphical capabilities via matplotlib, which allows dynamic updating of graphs _a la _Matlab, another drawback that R has despite great graphical capabilities.</description>
+    </item>
+    
+  </channel>
+</rss>

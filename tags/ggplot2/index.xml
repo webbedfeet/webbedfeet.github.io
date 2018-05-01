@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ggplot2 on Abhijit Dasgupta</title>
+    <link>/tags/ggplot2/</link>
+    <description>Recent content in Ggplot2 on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Tue, 01 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kaplan-Meier plots using ggplots2 (updated)</title>
+      <link>/post/kaplan-meier-plots-using-ggplots2-updated/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/kaplan-meier-plots-using-ggplots2-updated/</guid>
+      <description>About 3 years ago I published some code on this blog to draw a Kaplan-Meier plot using ggplot2. Since then, ggplot2 has been updated (from 0.8.9 to 0.9.3.1) and has changed syntactically. Since that post, I have also become comfortable with Git and Github. I have updated the code, edited it for a small error, and published it in a Gist. This gist has two functions, ggkm (basic Kaplan-Meier plot) and ggkmTable (enhanced Kaplan-Meier plot with table showing numbers at risk at various times).</description>
+    </item>
+    
+    <item>
+      <title>An enhanced Kaplan-Meier plot, updated</title>
+      <link>/post/an-enhanced-kaplan-meier-plot-updated/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/an-enhanced-kaplan-meier-plot-updated/</guid>
+      <description>I&amp;rsquo;ve updated the R code for the enhanced K-M plot to include additions and improvements by Gil Thomas and Mark Cowley. Thanks fellows for the feedback and updates. http://statbandit.wordpress.com/2011/03/08/an-enhanced-kaplan-meier-plot/</description>
+    </item>
+    
+    <item>
+      <title>An enhanced Kaplan-Meier plot</title>
+      <link>/post/an-enhanced-kaplan-meier-plot/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/an-enhanced-kaplan-meier-plot/</guid>
+      <description>We often see, in publications, a Kaplan-Meier survival plot, with a table of the number of subjects at risk at different time points aligned below the figure. I needed this type of plot (or really, matrices of such plots) for an upcoming publication. Of course, my preferred toolbox was R and the ggplot2 package.
+There were other attempts to do this type of plot in ggplot2, mainly by Gary Collins and an anonymous author as seen on the ggplot2 mailing list.</description>
+    </item>
+    
+    <item>
+      <title>ggplot2 joy</title>
+      <link>/post/ggplot2-joy/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ggplot2-joy/</guid>
+      <description>I&amp;rsquo;ve been working on a long-term (25+yr) longitudinal study of rheumatoid arthritis with my boss. He just walked in and asked if I could create a plot showing the trajectory of pain scores over time for each subject, separated by educational level (4 groups). Having now worked with ggplot2 for a while, and learning more at the last two DC useR meetups, I realized that I could formulate this in ggplot very easily and in short order.</description>
+    </item>
+    
+    <item>
+      <title>Forest plots using R and ggplot2</title>
+      <link>/post/forest-plots-using-r-and-ggplot2/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/forest-plots-using-r-and-ggplot2/</guid>
+      <description>Forest plots are most commonly used in reporting meta-analyses, but can be profitably used to summarise the results of a fitted model. They essentially display the estimates for model parameters and their corresponding confidence intervals.
+Matt Shotwell just posted a message to the R-help mailing list with his lattice-based solution to the problem of creating forest plots in R. I just figured out how to create a forest plot for a consulting report using ggplot2.</description>
+    </item>
+    
+  </channel>
+</rss>

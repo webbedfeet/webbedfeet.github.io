@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IDE on Abhijit Dasgupta</title>
+    <link>/tags/ide/</link>
+    <description>Recent content in IDE on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Tue, 01 Mar 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RStudio: a cut above</title>
+      <link>/post/rstudio-a-cut-above/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rstudio-a-cut-above/</guid>
+      <description>As most followers of R-bloggers.com and the Twitter #rstats know by now, RStudio is a new open-source IDE for R that was beta-released yesterday. I have started putting it through its paces within my R workflow, and my impressions are more than favorable. I also tried it out on my home Linux server in server mode.
+RStudio is obviously designed by people who actually use R and code in R for their data analyses.</description>
+    </item>
+    
+  </channel>
+</rss>

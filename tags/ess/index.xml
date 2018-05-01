@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ESS on Abhijit Dasgupta</title>
+    <link>/tags/ess/</link>
+    <description>Recent content in ESS on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Fri, 14 May 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ess/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A small customization of ESS</title>
+      <link>/post/a-small-customization-of-ess/</link>
+      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-small-customization-of-ess/</guid>
+      <description>JD Long (at Cerebral Mastication) posted a question on Twitter about an artifact in ESS, where typing &amp;ldquo;&amp;rdquo; gets you &amp;ldquo;&amp;lt;-&amp;ldquo;. This is because in the early days of S+, &amp;ldquo;&amp;rdquo; was an allowed assignment operator, and ESS was developed in that era. Later, it was disallowed in favor of &amp;ldquo;&amp;lt;-&amp;rdquo; and &amp;ldquo;=&amp;rdquo;, so ESS was modified to map &amp;ldquo;_&amp;rdquo; to &amp;ldquo;&amp;lt;-&amp;ldquo;. Now I like the typing convenience of this map, and I don&amp;rsquo;t use underscores in my variable names, so I was fine.</description>
+    </item>
+    
+  </channel>
+</rss>

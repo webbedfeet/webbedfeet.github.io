@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/hero/</loc>
+      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/publications_selected/</loc>
+      <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/publications/</loc>
+      <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/talks/</loc>
+      <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/posts/</loc>
+      <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/projects/</loc>
+      <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/teaching/</loc>
+      <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/tags/</loc>
+      <lastmod>2017-09-20T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/surprising-result-when-exploring-rcpp-gallery/</loc>
+      <lastmod>2017-07-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/finding-my-dropbox-in-r/</loc>
+      <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/some-thoughts-on-the-downsides-of-current-data-science-practice/</loc>
+      <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/pandas-transform-using-the-tidyverse/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/changing-names-in-the-tidyverse-an-example-for-many-regressions/</loc>
+      <lastmod>2017-03-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</loc>
+      <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/copying-tables-from-r-to-outlook/</loc>
+      <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-quick-exploration-of-reporters/</loc>
+      <lastmod>2016-10-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/annotated-facets-with-ggplot2/</loc>
+      <lastmod>2016-10-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-follow-up-to-crowdsourcing-research/</loc>
+      <lastmod>2016-02-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/crowdsourcing-research/</loc>
+      <lastmod>2016-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/reading-fixed-width-formats-in-the-hadleyverse/</loc>
+      <lastmod>2015-04-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/creating-new-data-with-max-values-for-each-subject-2/</loc>
+      <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/laf-ing-about-fixed-width-formats/</loc>
+      <lastmod>2014-11-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/munging-fixed-width-formats-in-python/</loc>
+      <lastmod>2014-11-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/practical-data-science-cookbook/</loc>
+      <lastmod>2014-11-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/the-need-for-documenting-functions/</loc>
+      <lastmod>2014-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/newer-dplyr/</loc>
+      <lastmod>2014-05-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/quick-notes-on-file-management-in-python/</loc>
+      <lastmod>2014-04-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/ipython-notebooks-the-new-glue/</loc>
+      <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-new-data-centric-incubator-project-in-dc/</loc>
+      <lastmod>2014-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/kaplan-meier-plots-using-ggplots2-updated/</loc>
+      <lastmod>2014-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/slidify-data-driven-presentations/</loc>
+      <lastmod>2014-03-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/input-data-interactively-into-r/</loc>
+      <lastmod>2014-01-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/the-many-faces-of-statisticsdata-science-cant-we-all-just-get-along-and-learn-from-each-other/</loc>
+      <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/pocketbook-costs-of-software-2/</loc>
+      <lastmod>2012-02-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/pocketbook-costs-of-software/</loc>
+      <lastmod>2012-02-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/converting-images-in-python/</loc>
+      <lastmod>2011-09-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/an-enhanced-kaplan-meier-plot-updated/</loc>
+      <lastmod>2011-09-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/another-application-of-r-getting-press/</loc>
+      <lastmod>2011-08-18T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/rstudio-0-94-92-visited/</loc>
+      <lastmod>2011-07-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-ggplot-trick-to-plot-different-plot-types-in-facets/</loc>
+      <lastmod>2011-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-word-of-warning-about-grep-which-and-the-like/</loc>
+      <lastmod>2011-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/sas-r-and-categorical-variables/</loc>
+      <lastmod>2011-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/an-enhanced-kaplan-meier-plot/</loc>
+      <lastmod>2011-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/rstudio-a-cut-above/</loc>
+      <lastmod>2011-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/the-split-apply-combine-paradigm-in-r/</loc>
+      <lastmod>2011-02-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/ggplot2-joy/</loc>
+      <lastmod>2011-02-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/forest-plots-using-r-and-ggplot2/</loc>
+      <lastmod>2010-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/user-2010-done-and-dusted/</loc>
+      <lastmod>2010-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-small-customization-of-ess/</loc>
+      <lastmod>2010-05-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/quick-and-dirty-parallel-processing-in-r/</loc>
+      <lastmod>2010-04-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/r-amusements/</loc>
+      <lastmod>2010-03-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/restructured-text-a-new-friend/</loc>
+      <lastmod>2009-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/benfords-law/</loc>
+      <lastmod>2009-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/32/</loc>
+      <lastmod>2009-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/python-r-for-microarrays/</loc>
+      <lastmod>2009-05-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/python-for-html-templates/</loc>
+      <lastmod>2009-05-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/floating-point-pitfalls/</loc>
+      <lastmod>2009-04-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/easy-way-to-tack-fortran-onto-python/</loc>
+      <lastmod>2009-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/genz-bretz-multivariate-normal-in-python/</loc>
+      <lastmod>2009-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/new-r-python-link/</loc>
+      <lastmod>2009-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/workflow-with-python-and-r/</loc>
+      <lastmod>2009-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/blogging/</loc>
+      <lastmod>2010-07-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/computation/</loc>
+      <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/data-science/</loc>
+      <lastmod>2014-11-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/data-science/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/data.table/</loc>
+      <lastmod>2011-02-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/ess/</loc>
+      <lastmod>2010-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/emacs/</loc>
+      <lastmod>2010-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/forest-plot/</loc>
+      <lastmod>2010-11-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/fortran/</loc>
+      <lastmod>2009-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/ggplot2/</loc>
+      <lastmod>2014-04-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/grid/</loc>
+      <lastmod>2011-03-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/ide/</loc>
+      <lastmod>2011-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/kaplan-meier/</loc>
+      <lastmod>2014-04-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/meetup/</loc>
+      <lastmod>2011-02-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/pil/</loc>
+      <lastmod>2011-09-29T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/parallel-computing/</loc>
+      <lastmod>2010-04-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/plyr/</loc>
+      <lastmod>2011-02-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/presentation/</loc>
+      <lastmod>2011-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/pydata/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/python/</loc>
+      <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/python/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/r/</loc>
+      <lastmod>2017-07-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/rstudio/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/sas/</loc>
+      <lastmod>2012-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/statistics/</loc>
+      <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/survival/</loc>
+      <lastmod>2011-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/survival-analysis/</loc>
+      <lastmod>2014-04-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tmp/</loc>
+      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/user2010/</loc>
+      <lastmod>2010-07-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/windows/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>

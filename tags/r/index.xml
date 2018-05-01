@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Abhijit Dasgupta</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Thu, 20 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quirks about running Rcpp on Windows through RStudio</title>
+      <link>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</guid>
+      <description>Quirks about running Rcpp on Windows through RStudio This is a quick note about some tribulations I had running Rcpp (v. 0.12.12) code through RStudio (v. 1.0.143) on a Windows 7 box running R (v. 3.3.2). I also have RTools v. 3.4 installed. I fully admit that this may very well be specific to my box, but I suspect not.
+I kept running into problems with Rcpp complaining that (a) RTools wasn&amp;rsquo;t installed, and (b) the C++ compiler couldn&amp;rsquo;t find Rcpp.</description>
+    </item>
+    
+    <item>
+      <title>pandas &#34;transform&#34; using the tidyverse</title>
+      <link>/post/pandas-transform-using-the-tidyverse/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pandas-transform-using-the-tidyverse/</guid>
+      <description>Chris Moffit has a nice blog on how to use the transform function in pandas. He provides some (fake) data on sales and asks the question of what fraction of each order is from each SKU.
+Being a R nut and a tidyverse fan, I thought to compare and contrast the code for the pandas version with an implementation using the tidyverse.
+First the pandas code:
+import pandas as pd dat = pd.</description>
+    </item>
+    
+    <item>
+      <title>A quick exploration of the ReporteRs package</title>
+      <link>/post/a-quick-exploration-of-reporters/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-quick-exploration-of-reporters/</guid>
+      <description>The package ReporteRs has been getting some play on the interwebs this week, though it&amp;rsquo;s actually been around for a while. The nice thing about this package is that it allows writing Word and PowerPoint documents in an OS-independent fashion unlike some earlier packages. It also allows the editing of documents by using bookmarks within the documents.
+This quick note is just to remind me that the structure of ReporteRs works beautifully with the piping conventions of magrittr.</description>
+    </item>
+    
+    <item>
+      <title>Creating new data with max values for each subject</title>
+      <link>/post/creating-new-data-with-max-values-for-each-subject-2/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creating-new-data-with-max-values-for-each-subject-2/</guid>
+      <description>We have a data set dat with multiple observations per subject. We want to create a subset of this data such that each subject (with ID giving the unique identifier for the subject) contributes the observation where the variable X takes it&amp;rsquo;s maximum value for that subject.
+R solutions Hadleyverse solutions Using the excellent R package dplyr, we can do this using windowing functions included in dplyr. The following solution is available on StackOverflow, by junkka, and gets around the real possibility that multiple observations might have the same maximum value of X by choosing one of them.</description>
+    </item>
+    
+    <item>
+      <title>&#34;LaF&#34;-ing about fixed width formats</title>
+      <link>/post/laf-ing-about-fixed-width-formats/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/laf-ing-about-fixed-width-formats/</guid>
+      <description>If you have ever worked with US government data or other large datasets, it is likely you have faced fixed-width format data. This format has no delimiters in it; the data look like strings of characters. A separate format file defines which columns of data represent which variables. It seems as if the format is from the punch-card era, but it is quite an efficient format to store large data in (see this StackOverflow discussion).</description>
+    </item>
+    
+    <item>
+      <title>Practical Data Science Cookbook</title>
+      <link>/post/practical-data-science-cookbook/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/practical-data-science-cookbook/</guid>
+      <description>Practical Data Science Cookbook My friends Sean Murphy, Ben Bengfort, Tony Ojeda and I recently published a book, Practical Data Science Cookbook. All of us are heavily involved in developing the data community in the Washington DC metro area, serving on the Board of Directors of Data Community DC. Sean and Ben co-organize the meetup Data Innovation DC and I co-organize the meetup Statistical Programming DC.
+Our intention in writing this book is to provide the data practitioner some guidance about how to navigate the data science pipeline, from data acquisition to final reports and data applications.</description>
+    </item>
+    
+    <item>
+      <title>The need for documenting functions</title>
+      <link>/post/the-need-for-documenting-functions/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-need-for-documenting-functions/</guid>
+      <description>My current work usually requires me to work on a project until we can submit a research paper, and then move on to a new project. However, 3-6 months down the road, when the reviews for the paper return, it is quite common to have to do some new analyses or re-analyses of the data. At that time, I have to re-visit my code!
+One of the common problems I (and I&amp;rsquo;m sure many of us) have is that we tend to hack code and functions with the end in mind, just getting the job done.</description>
+    </item>
+    
+    <item>
+      <title>Kaplan-Meier plots using ggplots2 (updated)</title>
+      <link>/post/kaplan-meier-plots-using-ggplots2-updated/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/kaplan-meier-plots-using-ggplots2-updated/</guid>
+      <description>About 3 years ago I published some code on this blog to draw a Kaplan-Meier plot using ggplot2. Since then, ggplot2 has been updated (from 0.8.9 to 0.9.3.1) and has changed syntactically. Since that post, I have also become comfortable with Git and Github. I have updated the code, edited it for a small error, and published it in a Gist. This gist has two functions, ggkm (basic Kaplan-Meier plot) and ggkmTable (enhanced Kaplan-Meier plot with table showing numbers at risk at various times).</description>
+    </item>
+    
+    <item>
+      <title>Pocketbook costs of software</title>
+      <link>/post/pocketbook-costs-of-software-2/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pocketbook-costs-of-software-2/</guid>
+      <description>I have always been provided SAS as part of my job, so I never really realized how much it cost. I&amp;rsquo;ve bought Stata before, and of course R :). I recently found out how much a reasonable bundle of SAS modules along with base SAS costs per year per seat, at least under the GSA. I tried finding out how much IBM SPSS is for a comparable bundle, but their web page was &amp;ldquo;not available&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Pocketbook costs of software</title>
+      <link>/post/pocketbook-costs-of-software/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pocketbook-costs-of-software/</guid>
+      <description>I have always been provided SAS as part of my job, so I never really realized how much it cost. I&amp;rsquo;ve bought Stata before, and of course R :). I recently found out how much a reasonable bundle of SAS modules along with base SAS costs per year per seat, at least under the GSA. I tried finding out how much IBM SPSS is for a comparable bundle, but their web page was &amp;ldquo;not available&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>An enhanced Kaplan-Meier plot, updated</title>
+      <link>/post/an-enhanced-kaplan-meier-plot-updated/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/an-enhanced-kaplan-meier-plot-updated/</guid>
+      <description>I&amp;rsquo;ve updated the R code for the enhanced K-M plot to include additions and improvements by Gil Thomas and Mark Cowley. Thanks fellows for the feedback and updates. http://statbandit.wordpress.com/2011/03/08/an-enhanced-kaplan-meier-plot/</description>
+    </item>
+    
+    <item>
+      <title>RStudio 0.94.92 visited</title>
+      <link>/post/rstudio-0-94-92-visited/</link>
+      <pubDate>Sat, 30 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rstudio-0-94-92-visited/</guid>
+      <description>I just updated my RStudio version to the latest, v.0.94.92 (will this asymptotically approach 1, or actually get to 1?). It was nice to see the number of improvements the development team has implemented, based I&amp;rsquo;m sure on community feedback. The team has, in my experience, been extraordinarily responsive to user feedback, and I&amp;rsquo;m sure this played a large part in the development path taken by the team.
+First and foremost, I was happy to see most of my wants met in this version:</description>
+    </item>
+    
+    <item>
+      <title>A word of warning about grep, which and the like</title>
+      <link>/post/a-word-of-warning-about-grep-which-and-the-like/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-word-of-warning-about-grep-which-and-the-like/</guid>
+      <description>I&amp;rsquo;ve often selected columns or rows of a data frame using grep or which, based on some property. That is inherently sound, but the trouble comes when you wish to remove rows or columns based on that grep or which call, e.g.,
+dat &amp;lt;- dat[,-grep(&#39;\\.1&#39;, names(dat))]  which would remove columns with a .1 in the name. This is fine the first time around, but if you forget and re-run the code, grep(&#39;\\.</description>
+    </item>
+    
+    <item>
+      <title>SAS, R and categorical variables</title>
+      <link>/post/sas-r-and-categorical-variables/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sas-r-and-categorical-variables/</guid>
+      <description>One of the disappointing problems in SAS (as I need PROC MIXED for some analysis) is to recode categorical variables to have a particular reference category. In R, my usual tool, this is rather easy both to set and to modify using the relevel command available in base R (in the stats package). My understanding is that this is actually easy in SAS for GLM, PHREG and some others, but not in PROC MIXED.</description>
+    </item>
+    
+    <item>
+      <title>An enhanced Kaplan-Meier plot</title>
+      <link>/post/an-enhanced-kaplan-meier-plot/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/an-enhanced-kaplan-meier-plot/</guid>
+      <description>We often see, in publications, a Kaplan-Meier survival plot, with a table of the number of subjects at risk at different time points aligned below the figure. I needed this type of plot (or really, matrices of such plots) for an upcoming publication. Of course, my preferred toolbox was R and the ggplot2 package.
+There were other attempts to do this type of plot in ggplot2, mainly by Gary Collins and an anonymous author as seen on the ggplot2 mailing list.</description>
+    </item>
+    
+    <item>
+      <title>RStudio: a cut above</title>
+      <link>/post/rstudio-a-cut-above/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rstudio-a-cut-above/</guid>
+      <description>As most followers of R-bloggers.com and the Twitter #rstats know by now, RStudio is a new open-source IDE for R that was beta-released yesterday. I have started putting it through its paces within my R workflow, and my impressions are more than favorable. I also tried it out on my home Linux server in server mode.
+RStudio is obviously designed by people who actually use R and code in R for their data analyses.</description>
+    </item>
+    
+    <item>
+      <title>The split-apply-combine paradigm in R</title>
+      <link>/post/the-split-apply-combine-paradigm-in-r/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-split-apply-combine-paradigm-in-r/</guid>
+      <description>Last night at the DC R Users meetup, which was our largest meetup to date, I gave an introductory presentation on data munging, and spent a bit of time on the split-apply-combine paradigm that I use almost daily in my work. I talked mainly about the packages plyr and doBy, which I use a lot now. David Smith posted a link on the Revolution blog to this article by Steve Miller, talking about the virtues of the data.</description>
+    </item>
+    
+    <item>
+      <title>ggplot2 joy</title>
+      <link>/post/ggplot2-joy/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ggplot2-joy/</guid>
+      <description>I&amp;rsquo;ve been working on a long-term (25+yr) longitudinal study of rheumatoid arthritis with my boss. He just walked in and asked if I could create a plot showing the trajectory of pain scores over time for each subject, separated by educational level (4 groups). Having now worked with ggplot2 for a while, and learning more at the last two DC useR meetups, I realized that I could formulate this in ggplot very easily and in short order.</description>
+    </item>
+    
+    <item>
+      <title>Forest plots using R and ggplot2</title>
+      <link>/post/forest-plots-using-r-and-ggplot2/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/forest-plots-using-r-and-ggplot2/</guid>
+      <description>Forest plots are most commonly used in reporting meta-analyses, but can be profitably used to summarise the results of a fitted model. They essentially display the estimates for model parameters and their corresponding confidence intervals.
+Matt Shotwell just posted a message to the R-help mailing list with his lattice-based solution to the problem of creating forest plots in R. I just figured out how to create a forest plot for a consulting report using ggplot2.</description>
+    </item>
+    
+    <item>
+      <title>useR! 2010 done and dusted</title>
+      <link>/post/user-2010-done-and-dusted/</link>
+      <pubDate>Sat, 24 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/user-2010-done-and-dusted/</guid>
+      <description>The useR! 2010 R users conference just finished up this afternoon with a thought-provoking, controversial, and sometimes hilarious talk by Richard Stallman of GNU fame. It started on Tuesday with great tutorials (I took ones on MICE for multiple imputation and Frank Harrell&amp;rsquo;s excellent regression modeling). In between these bookends was a wonderful conference where I got the chance to put faces to names (from their online presence), make many new friends, hopefully no enemies, and learn quite a bit.</description>
+    </item>
+    
+    <item>
+      <title>A small customization of ESS</title>
+      <link>/post/a-small-customization-of-ess/</link>
+      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-small-customization-of-ess/</guid>
+      <description>JD Long (at Cerebral Mastication) posted a question on Twitter about an artifact in ESS, where typing &amp;ldquo;&amp;rdquo; gets you &amp;ldquo;&amp;lt;-&amp;ldquo;. This is because in the early days of S+, &amp;ldquo;&amp;rdquo; was an allowed assignment operator, and ESS was developed in that era. Later, it was disallowed in favor of &amp;ldquo;&amp;lt;-&amp;rdquo; and &amp;ldquo;=&amp;rdquo;, so ESS was modified to map &amp;ldquo;_&amp;rdquo; to &amp;ldquo;&amp;lt;-&amp;ldquo;. Now I like the typing convenience of this map, and I don&amp;rsquo;t use underscores in my variable names, so I was fine.</description>
+    </item>
+    
+    <item>
+      <title>Quick and dirty parallel processing in R</title>
+      <link>/post/quick-and-dirty-parallel-processing-in-r/</link>
+      <pubDate>Fri, 30 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quick-and-dirty-parallel-processing-in-r/</guid>
+      <description>R has some powerful tools for parallel processing, which I discovered while searching for ways to fully utilize my 8-core computer at work. What surprised me is how easy it is&amp;hellip;about 6 lines of code, if that. Given that I wasn&amp;rsquo;t allowed to install heavy duty parallel-processing systems like MPICH on the computer, I found that the library SNOW fit the bill nicely through its use of sockets. I also discovered the libraries foreach and iterators, which were released to the community by the development team at Revolution R.</description>
+    </item>
+    
+    <item>
+      <title>R amusements</title>
+      <link>/post/r-amusements/</link>
+      <pubDate>Fri, 05 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-amusements/</guid>
+      <description>On a lark, and to kill a bit of time, I was running the R fortune command looking for references to SAS. Here&amp;rsquo;s what two successive random fortunes turned up. Can there be two more antipodal opinions about the same product? I laughed out loud.
+  fortune(&#39;SAS&#39;) There are companies whose yearly license fees to SAS total millions of dollars. Then those companies hire armies of SAS programmers to program an archaic macro language using old statistical methods to produce ugly tables and the worst graphics in the statistical software world.</description>
+    </item>
+    
+    <item>
+      <title>Workflow with Python and R</title>
+      <link>/post/workflow-with-python-and-r/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/workflow-with-python-and-r/</guid>
+      <description>I seem to be doing more and more with Python for work over and above using it as a generic scripting language. R has been my workhorse for analysis for a long time (15+ years in various incarnations of S+ and R), but it still has some deficiencies. I&amp;rsquo;m finding Python easier and faster to work with for large data sets. I&amp;rsquo;m also a bit happier with Python&amp;rsquo;s graphical capabilities via matplotlib, which allows dynamic updating of graphs _a la _Matlab, another drawback that R has despite great graphical capabilities.</description>
+    </item>
+    
+  </channel>
+</rss>

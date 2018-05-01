@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetup on Abhijit Dasgupta</title>
+    <link>/tags/meetup/</link>
+    <description>Recent content in Meetup on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Fri, 25 Feb 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The split-apply-combine paradigm in R</title>
+      <link>/post/the-split-apply-combine-paradigm-in-r/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-split-apply-combine-paradigm-in-r/</guid>
+      <description>Last night at the DC R Users meetup, which was our largest meetup to date, I gave an introductory presentation on data munging, and spent a bit of time on the split-apply-combine paradigm that I use almost daily in my work. I talked mainly about the packages plyr and doBy, which I use a lot now. David Smith posted a link on the Revolution blog to this article by Steve Miller, talking about the virtues of the data.</description>
+    </item>
+    
+    <item>
+      <title>ggplot2 joy</title>
+      <link>/post/ggplot2-joy/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ggplot2-joy/</guid>
+      <description>I&amp;rsquo;ve been working on a long-term (25+yr) longitudinal study of rheumatoid arthritis with my boss. He just walked in and asked if I could create a plot showing the trajectory of pain scores over time for each subject, separated by educational level (4 groups). Having now worked with ggplot2 for a while, and learning more at the last two DC useR meetups, I realized that I could formulate this in ggplot very easily and in short order.</description>
+    </item>
+    
+  </channel>
+</rss>

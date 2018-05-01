@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RStudio on Abhijit Dasgupta</title>
+    <link>/tags/rstudio/</link>
+    <description>Recent content in RStudio on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Thu, 20 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quirks about running Rcpp on Windows through RStudio</title>
+      <link>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</guid>
+      <description>Quirks about running Rcpp on Windows through RStudio This is a quick note about some tribulations I had running Rcpp (v. 0.12.12) code through RStudio (v. 1.0.143) on a Windows 7 box running R (v. 3.3.2). I also have RTools v. 3.4 installed. I fully admit that this may very well be specific to my box, but I suspect not.
+I kept running into problems with Rcpp complaining that (a) RTools wasn&amp;rsquo;t installed, and (b) the C++ compiler couldn&amp;rsquo;t find Rcpp.</description>
+    </item>
+    
+    <item>
+      <title>The need for documenting functions</title>
+      <link>/post/the-need-for-documenting-functions/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-need-for-documenting-functions/</guid>
+      <description>My current work usually requires me to work on a project until we can submit a research paper, and then move on to a new project. However, 3-6 months down the road, when the reviews for the paper return, it is quite common to have to do some new analyses or re-analyses of the data. At that time, I have to re-visit my code!
+One of the common problems I (and I&amp;rsquo;m sure many of us) have is that we tend to hack code and functions with the end in mind, just getting the job done.</description>
+    </item>
+    
+    <item>
+      <title>RStudio 0.94.92 visited</title>
+      <link>/post/rstudio-0-94-92-visited/</link>
+      <pubDate>Sat, 30 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rstudio-0-94-92-visited/</guid>
+      <description>I just updated my RStudio version to the latest, v.0.94.92 (will this asymptotically approach 1, or actually get to 1?). It was nice to see the number of improvements the development team has implemented, based I&amp;rsquo;m sure on community feedback. The team has, in my experience, been extraordinarily responsive to user feedback, and I&amp;rsquo;m sure this played a large part in the development path taken by the team.
+First and foremost, I was happy to see most of my wants met in this version:</description>
+    </item>
+    
+  </channel>
+</rss>

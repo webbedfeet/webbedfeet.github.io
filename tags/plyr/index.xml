@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plyr on Abhijit Dasgupta</title>
+    <link>/tags/plyr/</link>
+    <description>Recent content in Plyr on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Fri, 25 Feb 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/plyr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The split-apply-combine paradigm in R</title>
+      <link>/post/the-split-apply-combine-paradigm-in-r/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-split-apply-combine-paradigm-in-r/</guid>
+      <description>Last night at the DC R Users meetup, which was our largest meetup to date, I gave an introductory presentation on data munging, and spent a bit of time on the split-apply-combine paradigm that I use almost daily in my work. I talked mainly about the packages plyr and doBy, which I use a lot now. David Smith posted a link on the Revolution blog to this article by Steve Miller, talking about the virtues of the data.</description>
+    </item>
+    
+  </channel>
+</rss>

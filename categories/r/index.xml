@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Abhijit Dasgupta</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Fri, 21 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Surprising result when exploring Rcpp gallery</title>
+      <link>/post/surprising-result-when-exploring-rcpp-gallery/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/surprising-result-when-exploring-rcpp-gallery/</guid>
+      <description>I&amp;rsquo;m starting to incorporate more Rcpp in my R work, and so decided to spend some time exploring the Rcpp Gallery. One example by John Merrill caught my eye. He provides a C++ solution to transforming an list of lists into a data frame, and shows impressive speed savings compared to as.data.frame.
+This got me thinking about how I do this operation currently. I tend to rely on the do.call method.</description>
+    </item>
+    
+    <item>
+      <title>Finding my Dropbox in R</title>
+      <link>/post/finding-my-dropbox-in-r/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/finding-my-dropbox-in-r/</guid>
+      <description>I&amp;rsquo;ll often keep non-sensitive data on Dropbox so that I can access it on all my machines without gumming up git. I just wrote a small script to find the Dropbox location on each of my computers automatically. The crucial information is available here, from Dropbox.
+My small snippet of code is the following:
+if (Sys.info()[&#39;sysname&#39;] == &#39;Darwin&#39;) { info &amp;lt;- RJSONIO::fromJSON( file.path(path.expand(&amp;quot;~&amp;quot;),&#39;.dropbox&#39;,&#39;info.json&#39;)) } if (Sys.info()[&#39;sysname&#39;] == &#39;Windows&#39;) { info &amp;lt;- RJSONIO::fromJSON( ```r if (file.</description>
+    </item>
+    
+    <item>
+      <title>Changing names in the tidyverse: An example for many regressions</title>
+      <link>/post/changing-names-in-the-tidyverse-an-example-for-many-regressions/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/changing-names-in-the-tidyverse-an-example-for-many-regressions/</guid>
+      <description>A collaborator posed an interesting R question to me today. She wanted to do several regressions using different outcomes, with models being computed on different strata defined by a combination of experimental design variables. She then just wanted to extract the p-values for the slopes for each of the models, and then filter the strata based on p-value levels.
+This seems straighforward, right? Let&amp;rsquo;s set up a toy example:
+library(tidyverse) dat &amp;lt;- as_tibble(expand.</description>
+    </item>
+    
+    <item>
+      <title>A (much belated) update to plotting Kaplan-Meier curves in the tidyverse</title>
+      <link>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</guid>
+      <description>One of the most popular posts on this blog has been my attempt to create Kaplan-Meier plots with an aligned table of persons-at-risk below it under the ggplot paradigm. That post was last updated 3 years ago. In the interim, Chris Dardis has built upon these attempts to create a much more stable and feature-rich version of this function in his package survMisc; the function is called autoplot.</description>
+    </item>
+    
+    <item>
+      <title>Copying tables from R to Outlook</title>
+      <link>/post/copying-tables-from-r-to-outlook/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/copying-tables-from-r-to-outlook/</guid>
+      <description>I work in an ecosystem that uses Outlook for e-mail. When I have to communicate results with collaborators one of the most frequent tasks I face is to take a tabular output in R (either a summary table or some sort of tabular output) and send it to collaborators in Outlook. One method is certainly to export the table to Excel and then copy the table from there into Outlook. However, I think I prefer another method which works a bit quicker for me.</description>
+    </item>
+    
+    <item>
+      <title>Annotated Facets with ggplot2</title>
+      <link>/post/annotated-facets-with-ggplot2/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/annotated-facets-with-ggplot2/</guid>
+      <description>I was recently asked to do a panel of grouped boxplots of a continuous variable, with each panel representing a categorical grouping variable. This seems easy enough with ggplot2 and the facet_wrap function, but then my collaborator wanted p-values on the graphs! This post is my approach to the problem.
+First of all, one caveat. I&amp;rsquo;m a huge fan of Hadley Wickham&amp;rsquo;s tidyverse and so most of my code will reflect this ethos, including packages and pipes.</description>
+    </item>
+    
+    <item>
+      <title>Reading fixed width formats in the Hadleyverse</title>
+      <link>/post/reading-fixed-width-formats-in-the-hadleyverse/</link>
+      <pubDate>Sun, 19 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/reading-fixed-width-formats-in-the-hadleyverse/</guid>
+      <description>This is an update to a previous post on reading fixed width formats in R.
+A new addition to the Hadleyverse is the package readr, which includes a function read_fwf to read fixed width format files. I&amp;rsquo;ll compare the LaF approach to the readr approach using the same dataset as before. The variable wt is generated from parsing the Stata load file as before.
+I want to read all the data in two columns: DRG and HOSPID.</description>
+    </item>
+    
+    <item>
+      <title>Newer dplyr!!</title>
+      <link>/post/newer-dplyr/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/newer-dplyr/</guid>
+      <description>Last week Statistical Programming DC had a great meetup with my partner-in-crime Marck Vaisman talking about data.table and dplyr as powerful, fast R tools for data manipulation in R. Today Hadley Wickham announced the release of dplyr v.0.2, which is packed with new features and incorporates the &amp;ldquo;piping&amp;rdquo; syntax from Stefan Holst Bache&amp;rsquo;s magrittr package. I suspect that these developments will change the semantics of working in R, specially during the data munging phase.</description>
+    </item>
+    
+    <item>
+      <title>IPython notebooks: the new glue?</title>
+      <link>/post/ipython-notebooks-the-new-glue/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ipython-notebooks-the-new-glue/</guid>
+      <description>IPython notebooks have become a defacto standard for presenting Python-based analyses and talks, as evidenced by recent Pycon and PyData events. As anyone who has used them knows, they are great for &amp;ldquo;reproducible research&amp;rdquo;, presentations, and sharing via the nbviewer. There are extensions connecting IPython to R, Octave, Matlab, Mathematica, SQL, among others.
+However, the brilliance of the design of IPython is in the modularity of the underlying engine (3 cheers to Fernando Perez and his team).</description>
+    </item>
+    
+    <item>
+      <title>Slidify: Data driven presentations</title>
+      <link>/post/slidify-data-driven-presentations/</link>
+      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/slidify-data-driven-presentations/</guid>
+      <description>Publishers note: This blog was posted on August 1, 2013 on the Data Community DC blog, http://datacommunitydc.org/blog/2013/08/data-driven-presentations-using-slidify/
+Presentations are the stock-in-trade for consultants, managers, teachers, public speakers, and, probably, you. We all have to present our work at some level, to someone we report to or to our peers, or to introduce newcomers to our work. Of course, presentations are passe, so why blog about it? There&amp;rsquo;s already PowerPoint, and maybe Keynote.</description>
+    </item>
+    
+    <item>
+      <title>Input data interactively into R</title>
+      <link>/post/input-data-interactively-into-r/</link>
+      <pubDate>Thu, 30 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/input-data-interactively-into-r/</guid>
+      <description>To input data interactively into R, use the function readline:
+x &amp;lt;- readline(&amp;quot;What is your answer? &amp;quot;)  </description>
+    </item>
+    
+    <item>
+      <title>Another application of R getting press</title>
+      <link>/post/another-application-of-r-getting-press/</link>
+      <pubDate>Thu, 18 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/another-application-of-r-getting-press/</guid>
+      <description>Prof. Atul Butte of Stanford University and colleagues just published two articles in Science Translational Research which got a fair amount of press. In fact I heard about the work on the radio on my commute to work. The research involves developing a computational method which can look at drug-disease interactions based on the NCBI GEO repository to discover potentially new uses for approved drugs. On reading the paper, I realized that their main computational tool is R, in particular the Bioconductor tools as well as pvclust and qvalue.</description>
+    </item>
+    
+    <item>
+      <title>A ggplot trick to plot different plot types in facets</title>
+      <link>/post/a-ggplot-trick-to-plot-different-plot-types-in-facets/</link>
+      <pubDate>Fri, 29 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-ggplot-trick-to-plot-different-plot-types-in-facets/</guid>
+      <description>At the DC useR meetup last week, Marck Vaisman (@wahalulu) showed me a neat trick he&amp;rsquo;d learned to allow different facets in a faceted ggplot graph to have different plot types. The basis for this trick is this blog post in the Learn-R blog. Marck was trying to plot different statistics on our Meetup group&amp;rsquo;s membership on a faceted plot. Some of the variables were amenable to a step plot while others were more amenable to plotting using vertical lines.</description>
+    </item>
+    
+  </channel>
+</rss>

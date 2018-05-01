@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parallel computing on Abhijit Dasgupta</title>
+    <link>/tags/parallel-computing/</link>
+    <description>Recent content in Parallel computing on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Fri, 30 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/parallel-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick and dirty parallel processing in R</title>
+      <link>/post/quick-and-dirty-parallel-processing-in-r/</link>
+      <pubDate>Fri, 30 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quick-and-dirty-parallel-processing-in-r/</guid>
+      <description>R has some powerful tools for parallel processing, which I discovered while searching for ways to fully utilize my 8-core computer at work. What surprised me is how easy it is&amp;hellip;about 6 lines of code, if that. Given that I wasn&amp;rsquo;t allowed to install heavy duty parallel-processing systems like MPICH on the computer, I found that the library SNOW fit the bill nicely through its use of sockets. I also discovered the libraries foreach and iterators, which were released to the community by the development team at Revolution R.</description>
+    </item>
+    
+  </channel>
+</rss>

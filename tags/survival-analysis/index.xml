@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Survival analysis on Abhijit Dasgupta</title>
+    <link>/tags/survival-analysis/</link>
+    <description>Recent content in Survival analysis on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Tue, 01 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/survival-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kaplan-Meier plots using ggplots2 (updated)</title>
+      <link>/post/kaplan-meier-plots-using-ggplots2-updated/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/kaplan-meier-plots-using-ggplots2-updated/</guid>
+      <description>About 3 years ago I published some code on this blog to draw a Kaplan-Meier plot using ggplot2. Since then, ggplot2 has been updated (from 0.8.9 to 0.9.3.1) and has changed syntactically. Since that post, I have also become comfortable with Git and Github. I have updated the code, edited it for a small error, and published it in a Gist. This gist has two functions, ggkm (basic Kaplan-Meier plot) and ggkmTable (enhanced Kaplan-Meier plot with table showing numbers at risk at various times).</description>
+    </item>
+    
+  </channel>
+</rss>

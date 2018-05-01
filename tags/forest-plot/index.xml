@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forest plot on Abhijit Dasgupta</title>
+    <link>/tags/forest-plot/</link>
+    <description>Recent content in Forest plot on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Mon, 01 Nov 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/forest-plot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forest plots using R and ggplot2</title>
+      <link>/post/forest-plots-using-r-and-ggplot2/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/forest-plots-using-r-and-ggplot2/</guid>
+      <description>Forest plots are most commonly used in reporting meta-analyses, but can be profitably used to summarise the results of a fitted model. They essentially display the estimates for model parameters and their corresponding confidence intervals.
+Matt Shotwell just posted a message to the R-help mailing list with his lattice-based solution to the problem of creating forest plots in R. I just figured out how to create a forest plot for a consulting report using ggplot2.</description>
+    </item>
+    
+  </channel>
+</rss>

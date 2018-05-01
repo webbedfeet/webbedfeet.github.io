@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Abhijit Dasgupta</title>
+    <link>/categories/python/</link>
+    <description>Recent content in Python on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Tue, 11 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pandas &#34;transform&#34; using the tidyverse</title>
+      <link>/post/pandas-transform-using-the-tidyverse/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pandas-transform-using-the-tidyverse/</guid>
+      <description>Chris Moffit has a nice blog on how to use the transform function in pandas. He provides some (fake) data on sales and asks the question of what fraction of each order is from each SKU.
+Being a R nut and a tidyverse fan, I thought to compare and contrast the code for the pandas version with an implementation using the tidyverse.
+First the pandas code:
+import pandas as pd dat = pd.</description>
+    </item>
+    
+    <item>
+      <title>Quick notes on file management in Python</title>
+      <link>/post/quick-notes-on-file-management-in-python/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quick-notes-on-file-management-in-python/</guid>
+      <description> This is primarily for my recollection To expand ~ in a path name:
+os.path.expanduser(&#39;~&#39;)  To get the size of a directory:
+import os def getsize(start&amp;lt;em&amp;gt;path = &#39;.&#39;): totalsize = 0 for dirpath, dirnames, filenames in os.walk(start&amp;lt;/em&amp;gt;path): for f in filenames: fp = os.path.join(dirpath, f) totalsize += os.path.getsize(fp) return totalsize  </description>
+    </item>
+    
+    <item>
+      <title>IPython notebooks: the new glue?</title>
+      <link>/post/ipython-notebooks-the-new-glue/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ipython-notebooks-the-new-glue/</guid>
+      <description>IPython notebooks have become a defacto standard for presenting Python-based analyses and talks, as evidenced by recent Pycon and PyData events. As anyone who has used them knows, they are great for &amp;ldquo;reproducible research&amp;rdquo;, presentations, and sharing via the nbviewer. There are extensions connecting IPython to R, Octave, Matlab, Mathematica, SQL, among others.
+However, the brilliance of the design of IPython is in the modularity of the underlying engine (3 cheers to Fernando Perez and his team).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on Abhijit Dasgupta</title>
+    <link>/tags/statistics/</link>
+    <description>Recent content in Statistics on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Thu, 12 Apr 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The many faces of statistics/data science: Can&#39;t we all just get along and learn from each other?</title>
+      <link>/post/the-many-faces-of-statisticsdata-science-cant-we-all-just-get-along-and-learn-from-each-other/</link>
+      <pubDate>Thu, 12 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-many-faces-of-statisticsdata-science-cant-we-all-just-get-along-and-learn-from-each-other/</guid>
+      <description>Two blog posts in the last 24 hours caught my attention. First was this post by Jeff Leek noting that there are many fields which are applied statistics by another name (and I&amp;rsquo;d add operations research to his list). The second is an excellent post on Cloudera&amp;rsquo;s blog on constructing case-control studies. It is generally excellent, but has this rather unfortunate (in my view) statement:
+Analyzing a case-control study is a problem for a statistician.</description>
+    </item>
+    
+  </channel>
+</rss>

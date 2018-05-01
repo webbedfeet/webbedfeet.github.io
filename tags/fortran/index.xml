@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fortran on Abhijit Dasgupta</title>
+    <link>/tags/fortran/</link>
+    <description>Recent content in Fortran on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Fri, 06 Mar 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/fortran/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Easy (?) way to tack Fortran onto Python</title>
+      <link>/post/easy-way-to-tack-fortran-onto-python/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/easy-way-to-tack-fortran-onto-python/</guid>
+      <description>A recent post on Walking Randomly gave a nice example of using the Python ctypes module to load Fortran functions that have been compiled into a shared library (.so) or DLL (.dll). This seems an easier option than using f2py or pyfort, which have not been working well for me.</description>
+    </item>
+    
+    <item>
+      <title>Genz-Bretz multivariate normal in Python</title>
+      <link>/post/genz-bretz-multivariate-normal-in-python/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/post/genz-bretz-multivariate-normal-in-python/</guid>
+      <description>I&amp;rsquo;ve been fighting for some time to try and get Genz-Bretz&amp;rsquo;s method for calculating orthant probabilities in multivariate normal distributions imported into Python. I downloaded the fortran code from Alan Genz&amp;rsquo;s site and was unsuccessful in using f2py to link it with Python. However, I discovered the usefulness of the Python_ ctypes_ module in linking with shared libraries (see here). So, I compiled the fortran code using
+gfortran mvtdstpack.f -shared -o libmvt.</description>
+    </item>
+    
+  </channel>
+</rss>

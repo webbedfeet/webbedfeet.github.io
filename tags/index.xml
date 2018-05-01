@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Abhijit Dasgupta</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>Blogging</title>
+      <link>/tags/blogging/</link>
+      <pubDate>Sat, 24 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data.table</title>
+      <link>/tags/data.table/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data.table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESS</title>
+      <link>/tags/ess/</link>
+      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emacs</title>
+      <link>/tags/emacs/</link>
+      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forest plot</title>
+      <link>/tags/forest-plot/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/forest-plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fortran</title>
+      <link>/tags/fortran/</link>
+      <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fortran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot2</title>
+      <link>/tags/ggplot2/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grid</title>
+      <link>/tags/grid/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/grid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDE</title>
+      <link>/tags/ide/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kaplan-Meier</title>
+      <link>/tags/kaplan-meier/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kaplan-meier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meetup</title>
+      <link>/tags/meetup/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PIL</title>
+      <link>/tags/pil/</link>
+      <pubDate>Thu, 29 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel computing</title>
+      <link>/tags/parallel-computing/</link>
+      <pubDate>Fri, 30 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/parallel-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plyr</title>
+      <link>/tags/plyr/</link>
+      <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>/tags/presentation/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pydata</title>
+      <link>/tags/pydata/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pydata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAS</title>
+      <link>/tags/sas/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Thu, 12 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival</title>
+      <link>/tags/survival/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/survival/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival analysis</title>
+      <link>/tags/survival-analysis/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/survival-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UseR2010</title>
+      <link>/tags/user2010/</link>
+      <pubDate>Sat, 24 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/user2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

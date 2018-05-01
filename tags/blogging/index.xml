@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on Abhijit Dasgupta</title>
+    <link>/tags/blogging/</link>
+    <description>Recent content in Blogging on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Sat, 24 Jul 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>useR! 2010 done and dusted</title>
+      <link>/post/user-2010-done-and-dusted/</link>
+      <pubDate>Sat, 24 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/post/user-2010-done-and-dusted/</guid>
+      <description>The useR! 2010 R users conference just finished up this afternoon with a thought-provoking, controversial, and sometimes hilarious talk by Richard Stallman of GNU fame. It started on Tuesday with great tutorials (I took ones on MICE for multiple imputation and Frank Harrell&amp;rsquo;s excellent regression modeling). In between these bookends was a wonderful conference where I got the chance to put faces to names (from their online presence), make many new friends, hopefully no enemies, and learn quite a bit.</description>
+    </item>
+    
+  </channel>
+</rss>

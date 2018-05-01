@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="author" content="Abhijit Dasgupta">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Publishers note: This blog was posted on August 1, 2013 on the Data Community DC blog, http://datacommunitydc.org/blog/2013/08/data-driven-presentations-using-slidify/
+Presentations are the stock-in-trade for consultants, managers, teachers, public speakers, and, probably, you. We all have to present our work at some level, to someone we report to or to our peers, or to introduce newcomers to our work. Of course, presentations are passe, so why blog about it? There&rsquo;s already PowerPoint, and maybe Keynote.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="../../post/slidify-data-driven-presentations/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair&#43;Display:400,700%7cFauna&#43;One">
+  
+  <link rel="stylesheet" href="../../styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="Abhijit Dasgupta">
+  <link rel="feed" href="../../index.xml" type="application/rss+xml" title="Abhijit Dasgupta">
+  
+
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="icon" type="image/png" href="../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
+
+  <link rel="canonical" href="../../post/slidify-data-driven-presentations/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@webbedfeet">
+  <meta property="twitter:creator" content="@webbedfeet">
+  
+  <meta property="og:site_name" content="Abhijit Dasgupta">
+  <meta property="og:url" content="/post/slidify-data-driven-presentations/">
+  <meta property="og:title" content="Slidify: Data driven presentations | Abhijit Dasgupta">
+  <meta property="og:description" content="Publishers note: This blog was posted on August 1, 2013 on the Data Community DC blog, http://datacommunitydc.org/blog/2013/08/data-driven-presentations-using-slidify/
+Presentations are the stock-in-trade for consultants, managers, teachers, public speakers, and, probably, you. We all have to present our work at some level, to someone we report to or to our peers, or to introduce newcomers to our work. Of course, presentations are passe, so why blog about it? There&rsquo;s already PowerPoint, and maybe Keynote.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2014-03-31T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2014-03-31T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Slidify: Data driven presentations | Abhijit Dasgupta</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="../../">Abhijit Dasgupta</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a href="../../post">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#service">
+            
+            <span>Professional Service</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Slidify: Data driven presentations</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-03-31 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Mar 31, 2014
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Abhijit Dasgupta">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="../../categories/r/">R</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Slidify%3a%20Data%20driven%20presentations&amp;url=%2fpost%2fslidify-data-driven-presentations%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fslidify-data-driven-presentations%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fslidify-data-driven-presentations%2f&amp;title=Slidify%3a%20Data%20driven%20presentations"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fslidify-data-driven-presentations%2f&amp;title=Slidify%3a%20Data%20driven%20presentations"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Slidify%3a%20Data%20driven%20presentations&amp;body=%2fpost%2fslidify-data-driven-presentations%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p><strong>Publishers note: This blog was posted on August 1, 2013 on the Data Community DC blog, <a href="http://datacommunitydc.org/blog/2013/08/data-driven-presentations-using-slidify/" target="_blank">http://datacommunitydc.org/blog/2013/08/data-driven-presentations-using-slidify/</a></strong></p>
+
+<p>Presentations are the stock-in-trade for consultants, managers, teachers, public speakers, and, probably, you. We all have to present our work at some level, to someone we report to or to our peers, or to introduce newcomers to our work. Of course, presentations are passe, so why blog about it? There&rsquo;s already PowerPoint, and maybe Keynote. What more need we talk about?</p>
+
+<p>Well, technology has changed, and vibrant dynamic presentations are here today for everyone to see. No, I mean literally everybody, if I like. All anyone will need is a web browser to see it. Graphs can be interactive, flow can be nonlinear, and presentations can be fun and memorable again!</p>
+
+<p><a href="http://slidify.github.io" target="_blank"><img src="http://statbandit.files.wordpress.com/2014/04/screen-shot-2014-04-01-at-11-35-55-pm.png" alt="" />
+</a>
+But PowerPoint is so easy! You click, paste, type, add a bit of glitz, and you&rsquo;re done, right? Well, as most of us can attest to, not really. It takes a bit more effort and putzing around to really get things in reasonable shape, let alone great shape.</p>
+
+<p>And there <strong>are</strong> powerful alternatives. Which are simple and easy. And do a pretty great job on their own. Oh, and, by the way, if you have data and analysis results to present, super slick and a one-stop-shop from analysis to presentation. Really!! Actually there are a few out there, but I&rsquo;m going to talk about just one. My favorite. Slidify.</p>
+
+<p><a href="http://www.slidify.com" target="_blank">Slidify</a> is a fantastic R package that takes a document written in <a href="http://www.rstudio.com/ide/docs/r_markdown" target="_blank">RMarkdown</a>, which is <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> possibly interspersed with <a href="http://www.r-project.org" target="_blank">R</a> code that result in tables or figures or interactive graphics, weaves in the results of that code, and then formats it into beautiful web presentations using HTML5. You can decide on the format template (it comes with <a href="http://ramnathv.github.io/slidifyExamples/" target="_blank">quite a few</a> or brew your own. You can make your presentation look and behave the way you want, even like a <a href="http://www.prezi.com" target="_blank">Prezi</a> (using <a href="http://bartaz.github.io/imporess.js/" target="_blank">ImpressJS</a>). You can also make interactive questionnaires and even put in windows to code interactively within your presentation!!</p>
+
+<p>Slidify is obviously feature-rich, and infinitely customizable, but that&rsquo;s not really what attracted me to it. It was the ability to write presentations in Markdown, which is super easy and let&rsquo;s me put down content quickly without worrying about appearance (Between you and me, I&rsquo;m writing this post in Markdown, on a Nexus 7). And let me weave in results of my analyses easily, keeping the code in one place within my document. So when my data changes, I can create an updated presentation literally with the press of a button. Markdown is geared to create HTML documents. Pandoc and MultiMarkdown let you create HTML <em>presentations</em> from Markdown, but not living, data driven presentations like Slidify. I get to put my presentations up on <a href="http://www.github.com" target="_blank">Github</a> or on <a href="http://www.rpubs.com" target="_blank">Rpubs</a>, or even in <a href="http://www.dropbox.com" target="_blank">Dropbox</a>, directly using Slidify, share the link, and I&rsquo;m good to go.</p>
+
+<p>Dr. Ramnath Vaidyanathan created Slidify to help him teach more effectively at McGill University, where he is on the faculty of the School of Business. But, for me, it is now the goto place for creating presentations , even if I don&rsquo;t need to incorporate data. If you&rsquo;re an analyst and live in the R ecosystem, I highly recommend Slidify. If you don&rsquo;t and use other tools, Slidify is a great reason to come and see what R can do for you. Even if it to just create great presentations. There are plenty of great examples of what&rsquo;s possible at <a href="http://ramnathv.github.io/slidifyExamples" target="_blank">http://ramnathv.github.io/slidifyExamples</a>.</p>
+
+    </div>
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Abhijit Dasgupta &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="../../js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

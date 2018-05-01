@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Survival on Abhijit Dasgupta</title>
+    <link>/tags/survival/</link>
+    <description>Recent content in Survival on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Thu, 01 Sep 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/survival/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An enhanced Kaplan-Meier plot, updated</title>
+      <link>/post/an-enhanced-kaplan-meier-plot-updated/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/an-enhanced-kaplan-meier-plot-updated/</guid>
+      <description>I&amp;rsquo;ve updated the R code for the enhanced K-M plot to include additions and improvements by Gil Thomas and Mark Cowley. Thanks fellows for the feedback and updates. http://statbandit.wordpress.com/2011/03/08/an-enhanced-kaplan-meier-plot/</description>
+    </item>
+    
+    <item>
+      <title>An enhanced Kaplan-Meier plot</title>
+      <link>/post/an-enhanced-kaplan-meier-plot/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/an-enhanced-kaplan-meier-plot/</guid>
+      <description>We often see, in publications, a Kaplan-Meier survival plot, with a table of the number of subjects at risk at different time points aligned below the figure. I needed this type of plot (or really, matrices of such plots) for an upcoming publication. Of course, my preferred toolbox was R and the ggplot2 package.
+There were other attempts to do this type of plot in ggplot2, mainly by Gary Collins and an anonymous author as seen on the ggplot2 mailing list.</description>
+    </item>
+    
+  </channel>
+</rss>

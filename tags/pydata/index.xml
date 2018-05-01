@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pydata on Abhijit Dasgupta</title>
+    <link>/tags/pydata/</link>
+    <description>Recent content in Pydata on Abhijit Dasgupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
+    <lastBuildDate>Tue, 11 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/pydata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pandas &#34;transform&#34; using the tidyverse</title>
+      <link>/post/pandas-transform-using-the-tidyverse/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pandas-transform-using-the-tidyverse/</guid>
+      <description>Chris Moffit has a nice blog on how to use the transform function in pandas. He provides some (fake) data on sales and asks the question of what fraction of each order is from each SKU.
+Being a R nut and a tidyverse fan, I thought to compare and contrast the code for the pandas version with an implementation using the tidyverse.
+First the pandas code:
+import pandas as pd dat = pd.</description>
+    </item>
+    
+  </channel>
+</rss>
