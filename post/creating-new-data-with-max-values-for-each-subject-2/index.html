@@ -166,28 +166,9 @@ R solutions Hadleyverse solutions Using the excellent R package dplyr, we can do
         
 
         <li class="nav-item">
-          <a href="../../#teaching">
+          <a href="../../teaching">
             
             <span>Teaching</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="../../#service">
-            
-            <span>Professional Service</span>
             
           </a>
         </li>
@@ -318,7 +299,7 @@ R solutions Hadleyverse solutions Using the excellent R package dplyr, we can do
 
 <p>Using the excellent R package <em><a href="http://cran.r-project.org/package=dplyr" target="_blank">dplyr</a></em>, we can do this using windowing functions included in <em>dplyr</em>. The following solution is available on <a href="http://stackoverflow.com/questions/21308436/dplyr-filter-get-rows-with-minimum-of-variable-but-only-the-first-if-multiple" target="_blank">StackOverflow</a>, by <a href="http://stackoverflow.com/users/1557026/junkka" target="_blank">junkka</a>, and gets around the real possibility that multiple observations might have the same maximum value of <strong>X</strong> by choosing one of them.</p>
 
-<pre><code>library(dplyr)
+<pre><code class="language-r">library(dplyr)
 dat_max &lt;- dat %&gt;% group_by(ID) %&gt;% filter(row_number(X)==n())
 </code></pre>
 
@@ -326,7 +307,7 @@ dat_max &lt;- dat %&gt;% group_by(ID) %&gt;% filter(row_number(X)==n())
 
 <p>A solution using the <a href="http://cran.r-project.org/package=plyr" target="_blank">plyr</a> package might be</p>
 
-<pre><code>library(plyr)
+<pre><code class="language-r">library(plyr)
 dat_max &lt;- ddply(dat, .(ID), function(u) u[rank(u$X, ties.method='first')==nrow(u),])
 </code></pre>
 
@@ -354,26 +335,24 @@ sqldf('select * from bl LEFT JOIN dat using(ID, X)')
 
 <p>In Python, the excellent <a href="http://pandas.pydata.org" target="_blank">pandas</a> package allows us to do similar operations. The following example is from this <a href="http://stackoverflow.com/questions/19818756/extract-row-with-maximum-value-in-a-group-pandas-dataframe" target="_blank">thread</a> on StackOverflow.</p>
 
-<pre><code>import pandas as pd
+<pre><code class="language-python">import pandas as pd
 df = DataFrame({'Sp':['a','b','c','d','e','f'], 'Mt':['s1', 's1', 's2','s2','s2','s3'], 'Value':[1,2,3,4,5,6], 'count':[3,2,5,10,10,6]})
 df.iloc[df.groupby(['Mt']).apply(lambda x: x['count'].idxmax())][/code]
-
-You could also do (from the same thread)
-
 </code></pre>
 
-<p>df.sort(&lsquo;count&rsquo;, ascending=False).groupby(&lsquo;Mt&rsquo;, as_index=False).first()</p>
+<p>You could also do (from the same thread)</p>
 
-<pre><code>
-but it is about 50% slower.
+<pre><code>df.sort('count', ascending=False).groupby('Mt', as_index=False).first()
+</code></pre>
 
-### Using pandasql
+<p>but it is about 50% slower.</p>
 
-The package [pandasql](https://pypi.python.org/pypi/pandasql) is a port of `sqldf` to Python developed by
-[yhat](https://yhathq.com/). Using this package, we can mimic the `sqldf` solution given above:
+<h3 id="using-pandasql">Using pandasql</h3>
 
-````python
-from pandasql import sqldf
+<p>The package <a href="https://pypi.python.org/pypi/pandasql" target="_blank">pandasql</a> is a port of <code>sqldf</code> to Python developed by
+<a href="https://yhathq.com/" target="_blank">yhat</a>. Using this package, we can mimic the <code>sqldf</code> solution given above:</p>
+
+<pre><code class="language-python">from pandasql import sqldf
 sqldf('select Sp, Mt, Value, max(count) from df group by Mt', globals())
 </code></pre>
 
