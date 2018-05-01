@@ -121,47 +121,6 @@
     </item>
     
     <item>
-      <title>Tidying messy Excel data (Introduction)</title>
-      <link>/post/tidying-messy-data-1/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/tidying-messy-data-1/</guid>
-      <description>
-
-&lt;h3 id=&#34;personal-expressiveness-or-how-data-is-stored-in-a-spreadsheet&#34;&gt;Personal expressiveness, or how data is stored in a spreadsheet&lt;/h3&gt;
-
-&lt;p&gt;When you get data from a broad research community, the variability in how that data is
-formatted and stored is truly astonishing. Of course there are the standardized formats that are output from machines, like Next Generation Sequencing and other automated systems. That is a saving grace!&lt;/p&gt;
-
-&lt;p&gt;But for smaller data, or data collected in the lab, the possibilities are truly endless! You can get every possiblle color-coding of rows, columns and cells, merged cells,
-hidden columns and rows, and inopportune blank spaces that convert numbers to characters,
-and notes where there should be numbers. That&amp;rsquo;s just from the more organized spreadsheets. Then you get multiple tables in the same spreadsheet, ad hoc computations in some cells,
-cells copied by hand (with error), and sundry other variations on this theme. In other words, it can be a nightmare scenario for the analyst. To wit,&lt;/p&gt;
-
-&lt;p&gt;&lt;!--html_preserve--&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I feel like some sort of spreadsheet naturalist, where new specimens spotted in the wild must be logged and compared to known species&lt;/p&gt;&amp;mdash; Jenny Bryan (@JennyBryan) &lt;a href=&#34;https://twitter.com/JennyBryan/status/989274016807448577?ref_src=twsrc%5Etfw&#34;&gt;April 25, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;!--/html_preserve--&gt;&lt;/p&gt;
-
-&lt;p&gt;In thinking about this post, I went back and looked at the documentation of the &lt;a href=&#34;http://readxl.tidyverse.org&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;readxl&lt;/code&gt;&lt;/a&gt; package, which has made reading Excel files into R a lot easier than before. This package is quite powerful, so as long as data are in a
-relatively clean tabular form, this tool can pull it into R; see &lt;a href=&#34;http://readxl.tidyverse.org/articles/sheet-geometry.html&#34; target=&#34;_blank&#34;&gt;these&lt;/a&gt; &lt;a href=&#34;http://readxl.tidyverse.org/articles/sheet-geometry.html&#34; target=&#34;_blank&#34;&gt;vignettes&lt;/a&gt; to get a real sense of how to process decently behaved Excel files with R.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;On a side note, how many ways of importing Excel files into R can you name, or have you used?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The &lt;code&gt;readxl&lt;/code&gt; package has been my friend for a while, but then I received some well-intentioned spreadsheets that even &lt;code&gt;readxl&lt;/code&gt; wouldn&amp;rsquo;t touch, despite much coaxing. Now, I had two options: ask the collaborator to re-format the spreadsheet (manually, of course 😄), which in my experience is a disaster waiting to happen; or just take the spreadsheet as is and figure out how to import it into R. I almost always take the latter route, and &lt;code&gt;tidyxl&lt;/code&gt; is my bosom friend in this effort. In the next part of this series, I&amp;rsquo;ll describe my experiences with &lt;code&gt;tidyxl&lt;/code&gt; and why, every time I use it, I say a small blessing for the team that created it.&lt;/p&gt;
-
-&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://rpubs.com/jennybc/untangle-tidyeval&#34; target=&#34;_blank&#34;&gt;tidyeval meets Spreadsheet Hell&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.datacarpentry.org/spreadsheet-ecology-lesson/&#34; target=&#34;_blank&#34;&gt;Carpentries lesson on spreadsheet practices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://readxl.tidyverse.org/articles/articles/readxl-workflows.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;readxl&lt;/code&gt; workflows&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Surprising result when exploring Rcpp gallery</title>
       <link>/post/surprising-result-when-exploring-rcpp-gallery/</link>
       <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
@@ -784,6 +743,16 @@ y2_estimate
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A (much belated) update to plotting Kaplan-Meier curves in the tidyverse</title>
+      <link>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</guid>
+      <description>&lt;p&gt;One of the &lt;a href=&#34;https://statbandit.wordpress.com/2014/04/01/kaplan-meier-plots-using-ggplots2-updated/&#34; target=&#34;_blank&#34;&gt;most popular posts&lt;/a&gt; on this blog has been my attempt to create Kaplan-Meier plots with an aligned table of persons-at-risk below it under the ggplot paradigm. That post was last updated 3 years ago. In the interim, Chris Dardis has built upon these attempts to create a much more stable and feature-rich version of this function in his package &lt;a href=&#34;https://cran.r-project.org/web/packages/survMisc/&#34; target=&#34;_blank&#34;&gt;survMisc&lt;/a&gt;; the function is called &lt;a href=&#34;https://www.rdocumentation.org/packages/survMisc/versions/0.5.4/topics/autoplotTableAndPlot&#34; target=&#34;_blank&#34;&gt;autoplot&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

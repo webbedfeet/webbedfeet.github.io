@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Tidying messy Excel data (Introduction)</title>
-      <link>/post/tidying-messy-data-1/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/tidying-messy-data-1/</guid>
-      <description>Personal expressiveness, or how data is stored in a spreadsheet When you get data from a broad research community, the variability in how that data is formatted and stored is truly astonishing. Of course there are the standardized formats that are output from machines, like Next Generation Sequencing and other automated systems. That is a saving grace!
-But for smaller data, or data collected in the lab, the possibilities are truly endless!</description>
-    </item>
     
     <item>
       <title>Quirks about running Rcpp on Windows through RStudio</title>
