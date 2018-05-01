@@ -121,6 +121,26 @@
     </item>
     
     <item>
+      <title>Tidying messy data</title>
+      <link>/post/tidying-messy-data/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tidying-messy-data/</guid>
+      <description>&lt;p&gt;I think that generally, we are all too familiar with poorly formatted Excel files, which apparently are visually organized to the creator but drive a computer to fits. . We all want to collect data, but it seems almost noone is trained in &lt;strong&gt;how&lt;/strong&gt; to collect and store data. Apparently since everyone has seen spreadsheets, it &lt;em&gt;should&lt;/em&gt; be intuitive, or at least that’s how it often seems. Even in my statistics training, the lesson of how to store data to make it easier to use was never really a lesson taught but rather a lesson learned through collaboration, often imperfectly. The impact of Hadley’s &lt;a href=&#34;https://vita.had.co.nz/papers/tidy-data.pdf&#34;&gt;“Tidy Data”&lt;/a&gt; was immeasurable in bringing clear structure to storing data to make them more computer-friendly. Other strategies are of course possible for particular situations, but on the whole, the principle of tidy data makes things better more often than not.&lt;/p&gt;
+&lt;p&gt;Despite my fervent wish that my collaborators get basic training in “how to store data”, that alas hasn’t come to pass. So often I’m stuck with data that is visually organized (to varying degrees) but almost impossible to use computationally.&lt;/p&gt;
+&lt;p&gt;Two R packages have repeatedly come to my rescue for cleaning messy data supplied as Excel files: &lt;a href=&#34;https://github.com/nacnudus/tidyxl&#34;&gt;&lt;code&gt;tidyxl&lt;/code&gt;&lt;/a&gt; by Duncan Garmonsway, and &lt;a href=&#34;https://github.com/sfirke/janitor&#34;&gt;&lt;code&gt;janitor&lt;/code&gt;&lt;/a&gt; by Sam Firke. This is a tale of data cleaning made much easier and quicker because of these packages, with gratitude to the authors for developing these tools. I’ll describe my experience with &lt;code&gt;tidyxl&lt;/code&gt; here, and describe &lt;code&gt;janitor&lt;/code&gt; in a later post.&lt;/p&gt;
+&lt;p&gt;What are the most common problems I’m faced with in Excel files? In no particular order, they are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple tables on one sheet&lt;/li&gt;
+&lt;li&gt;Notes in random locations&lt;/li&gt;
+&lt;li&gt;Merged cells&lt;/li&gt;
+&lt;li&gt;Data type problems due to unintentional spaces&lt;/li&gt;
+&lt;li&gt;Color as metadata&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Surprising result when exploring Rcpp gallery</title>
       <link>/post/surprising-result-when-exploring-rcpp-gallery/</link>
       <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
@@ -743,16 +763,6 @@ y2_estimate
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A (much belated) update to plotting Kaplan-Meier curves in the tidyverse</title>
-      <link>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</guid>
-      <description>&lt;p&gt;One of the &lt;a href=&#34;https://statbandit.wordpress.com/2014/04/01/kaplan-meier-plots-using-ggplots2-updated/&#34; target=&#34;_blank&#34;&gt;most popular posts&lt;/a&gt; on this blog has been my attempt to create Kaplan-Meier plots with an aligned table of persons-at-risk below it under the ggplot paradigm. That post was last updated 3 years ago. In the interim, Chris Dardis has built upon these attempts to create a much more stable and feature-rich version of this function in his package &lt;a href=&#34;https://cran.r-project.org/web/packages/survMisc/&#34; target=&#34;_blank&#34;&gt;survMisc&lt;/a&gt;; the function is called &lt;a href=&#34;https://www.rdocumentation.org/packages/survMisc/versions/0.5.4/topics/autoplotTableAndPlot&#34; target=&#34;_blank&#34;&gt;autoplot&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

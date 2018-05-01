@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Abhijit Dasgupta</copyright>
-    <lastBuildDate>Thu, 20 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tidying messy data</title>
+      <link>/post/tidying-messy-data/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tidying-messy-data/</guid>
+      <description>I think that generally, we are all too familiar with poorly formatted Excel files, which apparently are visually organized to the creator but drive a computer to fits. . We all want to collect data, but it seems almost noone is trained in how to collect and store data. Apparently since everyone has seen spreadsheets, it should be intuitive, or at least that’s how it often seems. Even in my statistics training, the lesson of how to store data to make it easier to use was never really a lesson taught but rather a lesson learned through collaboration, often imperfectly.</description>
+    </item>
     
     <item>
       <title>Quirks about running Rcpp on Windows through RStudio</title>
