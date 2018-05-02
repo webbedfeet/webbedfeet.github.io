@@ -239,7 +239,7 @@ This got me thinking about how I do this operation currently. I tend to rely on 
       
       I&rsquo;ll often keep non-sensitive data on Dropbox so that I can access it on all my machines without gumming up git. I just wrote a small script to find the Dropbox location on each of my computers automatically. The crucial information is available here, from Dropbox.
 My small snippet of code is the following:
-if (Sys.info()[&lsquo;sysname&rsquo;] == &lsquo;Darwin&rsquo;) { info &lt;- RJSONIO::fromJSON( file.path(path.expand(&quot;~&quot;),&lsquo;.dropbox&rsquo;,&lsquo;info.json&rsquo;)) } if (Sys.info()[&lsquo;sysname&rsquo;] == &lsquo;Windows&rsquo;) { info &lt;- RJSONIO::fromJSON( ```r if (file.
+if (Sys.info()[&lsquo;sysname&rsquo;] == &lsquo;Darwin&rsquo;) { info &lt;- RJSONIO::fromJSON( file.path(path.expand(&quot;~&quot;),&lsquo;.dropbox&rsquo;,&lsquo;info.json&rsquo;)) } if (Sys.info()[&lsquo;sysname&rsquo;] == &lsquo;Windows&rsquo;) { info &lt;- RJSONIO::fromJSON( if (file.
       
     </div>
   </div>

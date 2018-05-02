@@ -30,7 +30,7 @@ This got me thinking about how I do this operation currently. I tend to rely on 
       <guid>/post/finding-my-dropbox-in-r/</guid>
       <description>I&amp;rsquo;ll often keep non-sensitive data on Dropbox so that I can access it on all my machines without gumming up git. I just wrote a small script to find the Dropbox location on each of my computers automatically. The crucial information is available here, from Dropbox.
 My small snippet of code is the following:
-if (Sys.info()[&#39;sysname&#39;] == &#39;Darwin&#39;) { info &amp;lt;- RJSONIO::fromJSON( file.path(path.expand(&amp;quot;~&amp;quot;),&#39;.dropbox&#39;,&#39;info.json&#39;)) } if (Sys.info()[&#39;sysname&#39;] == &#39;Windows&#39;) { info &amp;lt;- RJSONIO::fromJSON( ```r if (file.</description>
+if (Sys.info()[&#39;sysname&#39;] == &#39;Darwin&#39;) { info &amp;lt;- RJSONIO::fromJSON( file.path(path.expand(&amp;quot;~&amp;quot;),&#39;.dropbox&#39;,&#39;info.json&#39;)) } if (Sys.info()[&#39;sysname&#39;] == &#39;Windows&#39;) { info &amp;lt;- RJSONIO::fromJSON( if (file.</description>
     </item>
     
     <item>

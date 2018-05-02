@@ -16,14 +16,14 @@
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>/tmp/hero/</guid>
-      <description>&lt;p&gt;The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀
-&lt;br&gt;
-&lt;small&gt;&lt;a id=&#34;academic-release&#34; href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;Latest release&lt;/a&gt;&lt;/small&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;iframe style=&#34;display: inline-block;&#34; src=&#34;https://ghbtns.com/github-btn.html?user=gcushen&amp;amp;repo=hugo-academic&amp;amp;type=star&amp;amp;count=true&amp;amp;size=large&#34; scrolling=&#34;0&#34; width=&#34;160px&#34; height=&#34;30px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-&lt;iframe style=&#34;display: inline-block;&#34; src=&#34;https://ghbtns.com/github-btn.html?user=gcushen&amp;amp;repo=hugo-academic&amp;amp;type=fork&amp;amp;count=true&amp;amp;size=large&#34; scrolling=&#34;0&#34; width=&#34;158px&#34; height=&#34;30px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+      <description><p>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀
+<br>
+<small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
+<br><br>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=star&amp;count=true&amp;size=large" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=fork&amp;count=true&amp;size=large" scrolling="0" width="158px" height="30px" frameborder="0"></iframe></p>
 
-&lt;script type=&#34;text/javascript&#34;&gt;
+<script type="text/javascript">
   (function defer() {
     if (window.jQuery) {
       jQuery(document).ready(function(){
@@ -34,14 +34,40 @@
     }
   })();  
   function GetLatestReleaseInfo() {
-    $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) {
+    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
       let release = json[0];
       // let downloadURL = release.zipball_url;
-      $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name);  
+      $('#academic-release').text('Latest release ' + release.name);  
     });    
 }  
-&lt;/script&gt;
+</script>
 </description>
+	  <content:encoded><p>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀
+<br>
+<small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
+<br><br>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=star&amp;count=true&amp;size=large" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=fork&amp;count=true&amp;size=large" scrolling="0" width="158px" height="30px" frameborder="0"></iframe></p>
+
+<script type="text/javascript">
+  (function defer() {
+    if (window.jQuery) {
+      jQuery(document).ready(function(){
+        GetLatestReleaseInfo();
+      });
+    } else {
+      setTimeout(function() { defer() }, 50);
+    }
+  })();  
+  function GetLatestReleaseInfo() {
+    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
+      let release = json[0];
+      // let downloadURL = release.zipball_url;
+      $('#academic-release').text('Latest release ' + release.name);  
+    });    
+}  
+</script>
+</content:encoded>
     </item>
     
     <item>
@@ -51,6 +77,7 @@
       
       <guid>/tmp/publications_selected/</guid>
       <description></description>
+	  <content:encoded></content:encoded>
     </item>
     
     <item>
@@ -60,6 +87,7 @@
       
       <guid>/tmp/publications/</guid>
       <description></description>
+	  <content:encoded></content:encoded>
     </item>
     
     <item>
@@ -69,6 +97,7 @@
       
       <guid>/tmp/talks/</guid>
       <description></description>
+	  <content:encoded></content:encoded>
     </item>
     
     <item>
@@ -78,6 +107,7 @@
       
       <guid>/tmp/posts/</guid>
       <description></description>
+	  <content:encoded></content:encoded>
     </item>
     
     <item>
@@ -87,6 +117,7 @@
       
       <guid>/tmp/projects/</guid>
       <description></description>
+	  <content:encoded></content:encoded>
     </item>
     
     <item>
@@ -95,665 +126,34 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/tmp/teaching/</guid>
-      <description>&lt;p&gt;This is an example of using the &lt;em&gt;custom&lt;/em&gt; widget to create your own homepage section.&lt;/p&gt;
+      <description><p>This is an example of using the <em>custom</em> widget to create your own homepage section.</p>
 
-&lt;p&gt;I am a teaching instructor for the following courses at University X:&lt;/p&gt;
+<p>I am a teaching instructor for the following courses at University X:</p>
 
-&lt;ul&gt;
-&lt;li&gt;CS101: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS102: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS103: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS104: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS105: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS106: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS107: An intro to computer science&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>CS101: An intro to computer science</li>
+<li>CS102: An intro to computer science</li>
+<li>CS103: An intro to computer science</li>
+<li>CS104: An intro to computer science</li>
+<li>CS105: An intro to computer science</li>
+<li>CS106: An intro to computer science</li>
+<li>CS107: An intro to computer science</li>
+</ul>
 </description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>/tmp/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
-      
-      <guid>/tmp/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Surprising result when exploring Rcpp gallery</title>
-      <link>/post/surprising-result-when-exploring-rcpp-gallery/</link>
-      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/surprising-result-when-exploring-rcpp-gallery/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m starting to incorporate more Rcpp in my R work, and so decided to spend some time exploring the &lt;a href=&#34;http://gallery.rcpp.org&#34; target=&#34;_blank&#34;&gt;Rcpp Gallery&lt;/a&gt;. One &lt;a href=&#34;http://gallery.rcpp.org/articles/faster-data-frame-creation/&#34; target=&#34;_blank&#34;&gt;example&lt;/a&gt; by John Merrill caught my eye. He provides a C++ solution to transforming an list of lists into a data frame, and shows impressive speed savings compared to as.data.frame.&lt;/p&gt;
-
-&lt;p&gt;This got me thinking about how I do this operation currently. I tend to rely on the &lt;code&gt;do.call&lt;/code&gt; method. To mimic the example in the Rcpp example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;a &amp;lt;- replicate(250, 1:100, simplify=FALSE)
-b &amp;lt;- do.call(cbind, a)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;For fairness, I should get a data frame rather than a matrix, so for my comparisons, I do convert &lt;code&gt;b&lt;/code&gt; into a data frame. I follow the original coding in the example, adding my method above into the mix. Comparing times:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;res &amp;lt;- benchmark(as.data.frame(a),
-                 CheapDataFrameBuilder(a),
-                 as.data.frame(do.call(cbind, a)),
-                 order=&amp;quot;relative&amp;quot;, replications=500)
-res[,1:4]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The results were quite interesting to me :)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;                              test replications elapsed relative
-3 as.data.frame(do.call(cbind, a))          500    0.36    1.000
-2         CheapDataFrameBuilder(a)          500    0.52    1.444
-1                 as.data.frame(a)          500    7.28   20.222
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I think part of what&amp;rsquo;s happening here is that as.data.frame.list expends overhead checking for different aspects of making a legit data frame, including naming conventions. The comparison to &lt;code&gt;CheapDataFrameBuilder&lt;/code&gt; should really be with my barebones strategy. Having said that, the example does provide great value in showing what can be done using Rcpp.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Quirks about running Rcpp on Windows through RStudio</title>
-      <link>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</link>
-      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/quirks-about-running-rcpp-on-windows-through-rstudio/</guid>
-      <description>
-
-&lt;h1 id=&#34;quirks-about-running-rcpp-on-windows-through-rstudio&#34;&gt;Quirks about running Rcpp on Windows through RStudio&lt;/h1&gt;
-
-&lt;p&gt;This is a quick note about some tribulations I had running Rcpp (v. 0.12.12) code through RStudio (v. 1.0.143) on a Windows 7 box running R (v. 3.3.2). I also have RTools v. 3.4 installed. I fully admit that this may very well be specific to my box, but I suspect not.&lt;/p&gt;
-
-&lt;p&gt;I kept running into problems with Rcpp complaining that (a) RTools wasn&amp;rsquo;t installed, and (b) the C++ compiler couldn&amp;rsquo;t find &lt;code&gt;Rcpp.h&lt;/code&gt;. First, &lt;code&gt;devtools::find_rtools&lt;/code&gt; was giving a positive result, so (a) was not true. Second, I noticed that the wrong C++ compiler was being called. Even more frustrating was the fact that everything was working if I worked on a native R console rather than RStudio. So there was nothing inherently wrong with the code or setup, but rather the environment RStudio was creating.&lt;/p&gt;
-
-&lt;p&gt;After some searching the interwebs and StackOverflow, the following solution worked for me. I added the following lines to my global .Rprofile file:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Sys.setenv(PATH = paste(Sys.getenv(&amp;quot;PATH&amp;quot;), &amp;quot;C:/RBuildTools/3.4/bin/&amp;quot;,
-            &amp;quot;C:/RBuildTools/3.4/mingw_64/bin&amp;quot;, sep = &amp;quot;;&amp;quot;))
-Sys.setenv(BINPREF = &amp;quot;C:/RBuildTools/3.4/mingw_64/bin/&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Note that &lt;code&gt;C:/RBuildTools&lt;/code&gt; is the default location suggested when I installed RTools.&lt;/p&gt;
-
-&lt;p&gt;This solution is indicated &lt;a href=&#34;https://github.com/rwinlib/r-base/wiki/Testing-Packages-with-Experimental-R-Devel-Build-for-Windows&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, but I have the reverse issue of the default setup working in R and not in the latest RStudio. However, the solution still works!!&lt;/p&gt;
-
-&lt;p&gt;Note that instead of putting it in the global .Rprofile, you could put it in a project-specific .Rprofile, or even in your R code as long as it is run before loading the &lt;code&gt;Rcpp&lt;/code&gt; or derivative packages. Note also that if you use binary packages that use &lt;code&gt;Rcpp&lt;/code&gt;, there is no problem. Only when you&amp;rsquo;re compiling C++ code either for your own code or for building a package from source is this an issue. And, as far as I can tell, only on Windows.&lt;/p&gt;
-
-&lt;p&gt;Hope this prevents someone else from 3 hours of heartburn trying to make Rcpp work on a Windows box. And, if this has already been fixed in RStudio, please comment and I&amp;rsquo;ll be happy to update this post.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Finding my Dropbox in R</title>
-      <link>/post/finding-my-dropbox-in-r/</link>
-      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/finding-my-dropbox-in-r/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ll often keep non-sensitive data on Dropbox so that I can access it on all my machines without gumming up git. I just wrote a small script to find the Dropbox location on each of my computers automatically. The crucial information is available &lt;a href=&#34;https://www.dropbox.com/help/desktop-web/find-folder-paths&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, from Dropbox.&lt;/p&gt;
-
-&lt;p&gt;My small snippet of code is the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;if (Sys.info()[&#39;sysname&#39;] == &#39;Darwin&#39;) {
-  info &amp;lt;- RJSONIO::fromJSON(
-    file.path(path.expand(&amp;quot;~&amp;quot;),&#39;.dropbox&#39;,&#39;info.json&#39;))
-}
-if (Sys.info()[&#39;sysname&#39;] == &#39;Windows&#39;) {
-  info &amp;lt;- RJSONIO::fromJSON(
-```r
-if (file.exists(file.path(Sys.getenv(&#39;APPDATA&#39;), &#39;Dropbox&#39;,&#39;info.json&#39;))) {
-  file.path(Sys.getenv(&#39;APPDATA&#39;), &#39;Dropbox&#39;, &#39;info.json&#39;)
-} else {
-file.path(Sys.getenv(&#39;LOCALAPPDATA&#39;),&#39;Dropbox&#39;,&#39;info.json&#39;)
-}
-```
-  )
-}
-
-dropbox_base &amp;lt;- info$personal$path
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I haven&amp;rsquo;t included the Linux option since I don&amp;rsquo;t really use a Linux box, but the Dropbox link above will show you where the info.json file lies in Linux. Also, if you have a business Dropbox account, you&amp;rsquo;ll probably need &lt;code&gt;info$business$path&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hope this helps!!!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Some thoughts on the downsides of current Data Science practice</title>
-      <link>/post/some-thoughts-on-the-downsides-of-current-data-science-practice/</link>
-      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/some-thoughts-on-the-downsides-of-current-data-science-practice/</guid>
-      <description>&lt;p&gt;Bert Huang has a &lt;a href=&#34;https://berthuang.wordpress.com/2016/08/03/machine-learnings-poor-fit-for-real-data/&#34; target=&#34;_blank&#34;&gt;nice blog&lt;/a&gt; talking about poor results of ML/AI algorithms in &amp;ldquo;wild&amp;rdquo; data, which echos some of my experience and thoughts. His conclusions are worth thinking about, IMO.&lt;/p&gt;
-
-&lt;blockquote&gt;
-1. Big data is complex data. As we go out and collect more data from a finite world, we&#39;re necessarily going to start collecting more and more interdependent data. Back when we had hundreds of people in our databases, it was plausible that none of our data examples were socially connected. But when our databases are significant fractions of the world population, we are much farther away from the controlled samples of good laboratory science. This means...
-
-2. Data science as it&#39;s currently practiced is essentially bad science. When we take a biased, dependent population of samples and try to generalize a conclusion from it, we need to be fully aware of how flawed our study is. That doesn&#39;t mean things we discover using data analytics aren&#39;t useful, but they need to be understood through the lens of the bias and complex dependencies present in the training data.
-
-3. Computational methods should be aware of, and take advantage of, known dependencies. Some subfields of data mining and machine learning address this, like structured output learning, graph mining, relational learning, and more. But there is a lot of research progress needed. The data we&#39;re mostly interested in nowadays comes from complex phenomena, which means we have to pay for accurate modeling with a little computational and cognitive complexity. How we manage that is a big open problem.
-&lt;/blockquote&gt;
-
-&lt;p&gt;Specially point 3 is one I&amp;rsquo;ve been thinking about a lot recently. Our current frameworks are quite limited in dealing with dependencies and complexity. We&amp;rsquo;ve been happy using decades-old methods since they work pretty well on the predictive side as a reasonable approximation to the truth. However, having machines understanding complexity and incorporating it in predictions or understanding is a second-level challenge that can use significant research effort.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>pandas &#34;transform&#34; using the tidyverse</title>
-      <link>/post/pandas-transform-using-the-tidyverse/</link>
-      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/pandas-transform-using-the-tidyverse/</guid>
-      <description>&lt;p&gt;Chris Moffit has a nice &lt;a href=&#34;http://pbpython.com/pandas_transform.html&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; on how to use the &lt;code&gt;transform&lt;/code&gt; function in &lt;code&gt;pandas&lt;/code&gt;. He provides some (fake) data on sales and asks the question of what fraction of each order is from each SKU.&lt;/p&gt;
-
-&lt;p&gt;Being a R nut and a &lt;code&gt;tidyverse&lt;/code&gt; fan, I thought to compare and contrast the code for the &lt;code&gt;pandas&lt;/code&gt; version with an implementation using the tidyverse.&lt;/p&gt;
-
-&lt;p&gt;First the &lt;code&gt;pandas&lt;/code&gt; code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-dat = pd.read_excel(&#39;sales_transactions.xlsx&#39;)
-dat[&#39;Percent_of_Order&#39;] = dat[&#39;ext price&#39;]/dat.groupby(&#39;order&#39;)[&#39;ext price&#39;].transform(&#39;sum&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;A similar implementation using the tidyverse:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
-library(readxl)
-dat &amp;lt;- read_excel(&#39;sales_transactions.xlsx&#39;)
-dat &amp;lt;- dat %&amp;gt;%
-group_by(order) %&amp;gt;%
-mutate(Percent_of_Order = `ext price`/sum(`ext price`))
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Changing names in the tidyverse: An example for many regressions</title>
-      <link>/post/changing-names-in-the-tidyverse-an-example-for-many-regressions/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/changing-names-in-the-tidyverse-an-example-for-many-regressions/</guid>
-      <description>&lt;p&gt;A collaborator posed an interesting R question to me today. She wanted to do
-several regressions using different outcomes, with models being computed on
-different strata defined by a combination of experimental design variables. She then just wanted to extract the p-values for the slopes for each of the models, and then
-filter the strata based on p-value levels.&lt;/p&gt;
-
-&lt;p&gt;This seems straighforward, right? Let&amp;rsquo;s set up a toy example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;library(tidyverse)
-
-dat &amp;lt;- as_tibble(expand.grid(letters[1:4], 1:5))
-d &amp;lt;- vector(&#39;list&#39;, nrow(dat))
-set.seed(102)
-for(i in 1:nrow(dat)){
-x &amp;lt;- rnorm(100)
-d[[i]] &amp;lt;- tibble(x = x, y1 = 3 - 2*x + rnorm(100), y2 = -4+5*x+rnorm(100))
-}
-dat &amp;lt;- as_tibble(bind_cols(dat, tibble(dat=d))) %&amp;gt;% unnest()
-knitr::kable(head(dat), format=&#39;html&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table &gt;
-
-&lt;tr &gt;
-Var1
-Var2
-x
-y1
-y2
-&lt;/tr&gt;
-
-&lt;tbody &gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 0.1805229
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.2598245
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -3.004535
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 0.7847340
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 0.0023338
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.104949
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.3531646
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 3.1711898
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -9.156758
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1.9832982
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -0.7140910
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.966377
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1.2384717
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 0.3523034
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 2.131004
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1.2006174
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 0.6267716
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1.752106
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Now we&amp;rsquo;re going to perform two regressions, one using &lt;code&gt;y1&lt;/code&gt; and one using &lt;code&gt;y2&lt;/code&gt; as the dependent variables, for each stratum defined by &lt;code&gt;Var1&lt;/code&gt; and &lt;code&gt;Var2&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;out &amp;lt;- dat %&amp;gt;%
-nest(-Var1, -Var2) %&amp;gt;%
-mutate(model1 = map(data, ~lm(y1~x, data=.)),
-model2 = map(data, ~lm(y2~x, data=.)))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now conceptually, all we do is tidy up the output for the models using the &lt;code&gt;broom&lt;/code&gt; package, filter on the rows containg the slope information, and extract the p-values, right? Not quite&amp;hellip;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;library(broom)
-out_problem &amp;lt;- out %&amp;gt;% mutate(output1 = map(model1, ~tidy(.)),
-output2 = map(model2, ~tidy(.))) %&amp;gt;%
-select(-data, -model1, -model2) %&amp;gt;%
-unnest()
-names(out_problem)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;[1] &amp;ldquo;Var1&amp;rdquo; &amp;ldquo;Var2&amp;rdquo; &amp;ldquo;term&amp;rdquo; &amp;ldquo;estimate&amp;rdquo; &amp;ldquo;std.error&amp;rdquo;
-[6] &amp;ldquo;statistic&amp;rdquo; &amp;ldquo;p.value&amp;rdquo; &amp;ldquo;term&amp;rdquo; &amp;ldquo;estimate&amp;rdquo; &amp;ldquo;std.error&amp;rdquo;
-[11] &amp;ldquo;statistic&amp;rdquo; &amp;ldquo;p.value&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ve got two sets of output, but with the same column names!!! This is a problem! An easy solution would be to preface the column names with the name of the response variable. I struggled with this today until I discovered the &lt;em&gt;secret function&lt;/em&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;out_nice &amp;lt;- out %&amp;gt;% mutate(output1 = map(model1, ~tidy(.)),
-output2 = map(model2, ~tidy(.)),
-output1 = map(output1, ~setNames(., paste(&#39;y1&#39;, names(.), sep=&#39;_&#39;))),
-output2 = map(output2, ~setNames(., paste(&#39;y2&#39;, names(.), sep=&#39;_&#39;)))) %&amp;gt;%
-select(-data, -model1, -model2) %&amp;gt;%
-unnest()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is a compact representation of the results of both regressions by strata, and we can extract the information we would like very easily. For example, to extract the stratum-specific slope estimates:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;out_nice %&amp;gt;% filter(y1_term==&#39;x&#39;) %&amp;gt;%
-select(Var1, Var2, ends_with(&#39;estimate&#39;)) %&amp;gt;%
-knitr::kable(digits=3, format=&#39;html&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table &gt;
-
-&lt;tr &gt;
-Var1
-Var2
-y1_estimate
-y2_estimate
-&lt;/tr&gt;
-
-&lt;tbody &gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.897
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.036
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; b
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.000
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.022
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; c
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.988
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.888
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; d
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 1
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.089
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.089
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 2
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.052
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.015
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; b
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 2
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.922
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.004
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; c
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 2
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.936
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.969
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; d
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 2
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.961
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.959
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 3
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.043
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.017
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; b
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 3
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.045
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.860
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; c
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 3
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.996
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.009
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; d
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 3
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.922
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.894
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.000
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.942
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; b
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.000
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4.932
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; c
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.033
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.042
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; d
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 4
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.165
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.049
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; a
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.094
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.010
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; b
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.961
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.122
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; c
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -2.106
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.153
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr &gt;
-
-&lt;td style=&#34;text-align:left;&#34; &gt; d
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; -1.974
-&lt;/td&gt;
-
-&lt;td style=&#34;text-align:right;&#34; &gt; 5.009
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A (much belated) update to plotting Kaplan-Meier curves in the tidyverse</title>
-      <link>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/a-much-belated-update-to-plotting-kaplan-meier-curves-in-the-tidyverse/</guid>
-      <description>&lt;p&gt;One of the &lt;a href=&#34;https://statbandit.wordpress.com/2014/04/01/kaplan-meier-plots-using-ggplots2-updated/&#34; target=&#34;_blank&#34;&gt;most popular posts&lt;/a&gt; on this blog has been my attempt to create Kaplan-Meier plots with an aligned table of persons-at-risk below it under the ggplot paradigm. That post was last updated 3 years ago. In the interim, Chris Dardis has built upon these attempts to create a much more stable and feature-rich version of this function in his package &lt;a href=&#34;https://cran.r-project.org/web/packages/survMisc/&#34; target=&#34;_blank&#34;&gt;survMisc&lt;/a&gt;; the function is called &lt;a href=&#34;https://www.rdocumentation.org/packages/survMisc/versions/0.5.4/topics/autoplotTableAndPlot&#34; target=&#34;_blank&#34;&gt;autoplot&lt;/a&gt;.&lt;/p&gt;
-</description>
+	  <content:encoded><p>This is an example of using the <em>custom</em> widget to create your own homepage section.</p>
+
+<p>I am a teaching instructor for the following courses at University X:</p>
+
+<ul>
+<li>CS101: An intro to computer science</li>
+<li>CS102: An intro to computer science</li>
+<li>CS103: An intro to computer science</li>
+<li>CS104: An intro to computer science</li>
+<li>CS105: An intro to computer science</li>
+<li>CS106: An intro to computer science</li>
+<li>CS107: An intro to computer science</li>
+</ul>
+</content:encoded>
     </item>
     
   </channel>
