@@ -17,10 +17,13 @@
       
     
   
-  <meta name="description" content="I seem to be doing more and more with Python for work over and above using it as a generic scripting language. R has been my workhorse for analysis for a long time (15&#43; years in various incarnations of S&#43; and R), but it still has some deficiencies. I&rsquo;m finding Python easier and faster to work with for large data sets. I&rsquo;m also a bit happier with Python&rsquo;s graphical capabilities via matplotlib, which allows dynamic updating of graphs _a la _Matlab, another drawback that R has despite great graphical capabilities.">
+  <meta name="description" content="Well, here&rsquo;s what I was dealing with:
+Notice that we have 3 header rows, first with patient IDs, second with spine region, and third with variable names (A and B, to protect the innocent).
+Goal A dataset that, for each patient and each angle gives us corresponding values of A and B. So this would be a four-column data set with ID, angle, A and B.
+Attempt 1 (readxl) d1 &lt;- readxl::read_excel(&#39;spreadsheet1.">
 
   
-  <link rel="alternate" hreflang="en-us" href="../../post/workflow-with-python-and-r/">
+  <link rel="alternate" hreflang="en-us" href="../../post/tidying-messy-excel-data-tidyxl/">
 
   
 
@@ -81,7 +84,7 @@
   <link rel="icon" type="image/png" href="../../img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
 
-  <link rel="canonical" href="../../post/workflow-with-python-and-r/">
+  <link rel="canonical" href="../../post/tidying-messy-excel-data-tidyxl/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -89,21 +92,24 @@
   <meta property="twitter:creator" content="@webbedfeet">
   
   <meta property="og:site_name" content="Abhijit Dasgupta">
-  <meta property="og:url" content="/post/workflow-with-python-and-r/">
-  <meta property="og:title" content="Workflow with Python and R | Abhijit Dasgupta">
-  <meta property="og:description" content="I seem to be doing more and more with Python for work over and above using it as a generic scripting language. R has been my workhorse for analysis for a long time (15&#43; years in various incarnations of S&#43; and R), but it still has some deficiencies. I&rsquo;m finding Python easier and faster to work with for large data sets. I&rsquo;m also a bit happier with Python&rsquo;s graphical capabilities via matplotlib, which allows dynamic updating of graphs _a la _Matlab, another drawback that R has despite great graphical capabilities.">
+  <meta property="og:url" content="/post/tidying-messy-excel-data-tidyxl/">
+  <meta property="og:title" content="Tidying messy Excel data (tidyxl) | Abhijit Dasgupta">
+  <meta property="og:description" content="Well, here&rsquo;s what I was dealing with:
+Notice that we have 3 header rows, first with patient IDs, second with spine region, and third with variable names (A and B, to protect the innocent).
+Goal A dataset that, for each patient and each angle gives us corresponding values of A and B. So this would be a four-column data set with ID, angle, A and B.
+Attempt 1 (readxl) d1 &lt;- readxl::read_excel(&#39;spreadsheet1.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2009-03-06T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-05-05T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2009-03-06T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-05-02T00:00:00&#43;00:00">
   
 
   
 
-  <title>Workflow with Python and R | Abhijit Dasgupta</title>
+  
+
+  <title>Tidying messy Excel data (tidyxl) | Abhijit Dasgupta</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -222,7 +228,7 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Workflow with Python and R</h1>
+    <h1 itemprop="name">Tidying messy Excel data (tidyxl)</h1>
 
     
 
@@ -230,8 +236,8 @@
 
   <span class="article-date">
     
-    <time datetime="2009-03-06 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Mar 6, 2009
+    <time datetime="2018-05-02 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      May 2, 2018
     </time>
   </span>
   <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
@@ -241,27 +247,18 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    5 min read
   </span>
   
 
   
   
   <span class="middot-divider"></span>
-  <a href="../../post/workflow-with-python-and-r/#disqus_thread"></a>
+  <a href="../../post/tidying-messy-excel-data-tidyxl/#disqus_thread"></a>
   
 
   
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="../../categories/computation/">Computation</a
-    >
-    
-  </span>
   
   
 
@@ -271,35 +268,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Workflow%20with%20Python%20and%20R&amp;url=%2fpost%2fworkflow-with-python-and-r%2f"
+         href="https://twitter.com/intent/tweet?text=Tidying%20messy%20Excel%20data%20%28tidyxl%29&amp;url=%2fpost%2ftidying-messy-excel-data-tidyxl%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpost%2fworkflow-with-python-and-r%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2ftidying-messy-excel-data-tidyxl%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fworkflow-with-python-and-r%2f&amp;title=Workflow%20with%20Python%20and%20R"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2ftidying-messy-excel-data-tidyxl%2f&amp;title=Tidying%20messy%20Excel%20data%20%28tidyxl%29"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2fworkflow-with-python-and-r%2f&amp;title=Workflow%20with%20Python%20and%20R"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2ftidying-messy-excel-data-tidyxl%2f&amp;title=Tidying%20messy%20Excel%20data%20%28tidyxl%29"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Workflow%20with%20Python%20and%20R&amp;body=%2fpost%2fworkflow-with-python-and-r%2f">
+         href="mailto:?subject=Tidying%20messy%20Excel%20data%20%28tidyxl%29&amp;body=%2fpost%2ftidying-messy-excel-data-tidyxl%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -313,43 +310,167 @@
 
 
     <div class="article-style" itemprop="articleBody">
-      <p>I seem to be doing more and more with Python for work over and above using it as a generic scripting language. R has been my workhorse for analysis for a long time (15+ years in various incarnations of S+ and R), but it still has some deficiencies. I&rsquo;m finding Python easier and <em>faster</em> to work with for large data sets. I&rsquo;m also a bit happier with Python&rsquo;s graphical capabilities via <em>matplotlib</em>, which allows dynamic updating of graphs _a la _Matlab, another drawback that R has despite great graphical capabilities.</p>
+      
 
-<p>Where am I finding Python useful? Mainly in reading, cleaning and transforming data sets, and a bit of analysis using <em>scipy</em>. Python seems more efficient in reading and working through large data sets than R ever was.  Data cleaning using the string utilities and the _re _ module and exploration also seems pretty easy. I&rsquo;ll probably have to right a few utilities, or just pass that stuff into R. I&rsquo;m more comfortable doing the analysis within R, so I&rsquo;m using <em>rpy2</em> quite a bit. Gautier has done a nice upgrade of the old <em>rpy</em> which I used quite a bit.</p>
+<p>Well, here&rsquo;s what I was dealing with:</p>
 
-<p>One thing that Python doesn&rsquo;t have well yet is a literate programming interface. <em>Sweave</em> is one of the strengths of R (and <em>StatWeave</em> looks interesting as an interface with other software like SAS, Stata, etc) which I use almost on a daily basis for report writing. <em>pyreport 0.3</em> seems promising, and does allow for the report to be written in LaTeX, but I need to play with it some more before I can make a call on it. pyreport does allow the simplicity of <em>reStructured Text</em> for documentation, which I wish Sweave was capable of. I figure this can be easily remedied in R by modifying the RweaveHTML driver written by my old friend Greg Snow. [<strong>Addendum, 3/22/09</strong>: I recently found a python package for LaTeX (python.tex), which allows one to embed python code in a LaTeX document, then run latex using the &ndash;shell-escape flag. This then runs the python code and embeds the results into the LaTeX document. Sort of the opposite of Sweave, but I figure it will be quite useful as well. It should even work within Sweave documents, since the Sweave parser will take out the R/S parts, then running latex will take care of the python parts.]</p>
+<p><img src="../../img/spreadsheet1.png" alt="spreadsheet1.png" /></p>
 
-<p>Speaking of report writing, this in another place I use Python a lot in my workflow to convert file formats. I use the Python API for OpenOffice.org to transform formats, both for Writer documents and for spreadsheets. I&rsquo;ve written small Python scripts in my ~/bin so that I can, on the fly, convert HTML to odt or doc. This is proving quite useful and seems to preserve formats reasonably well. So my reporting workflow is to use Sweave to create a LaTeX document, which I then convert to PDF and HTML, and then transform the HTML to doc using Python. I also create all my graphics as PDF, EPS and SVG formats for subsequent editing by clients. These formats produce the least loss on transformation (the vector formats EPS and SVG have no loss), which is great for large, multicolored heatmaps I produce. I will also create PNG graphics if I have to provide a Word document for the client.</p>
+<p>Notice that we have 3 header rows, first with patient IDs, second with spine region, and third with variable names (A and B, to protect the innocent).</p>
+
+<h4 id="goal">Goal</h4>
+
+<p>A dataset that, for each patient and
+each angle gives us corresponding values of A and B. So this would be a
+four-column data set with ID, angle, A and B.</p>
+
+<h2 id="attempt-1-readxl">Attempt 1 (readxl)</h2>
+
+<pre><code class="language-r">d1 &lt;- readxl::read_excel('spreadsheet1.xlsx')
+head(d1)
+</code></pre>
+
+<pre><code>## # A tibble: 6 x 26
+##   X__1   patient `44`   `44__1` `10`   `10__1`  `3`   `3__1` `53`  `53__1`
+##   &lt;chr&gt;  &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;  
+## 1 &lt;NA&gt;   IDS     T5/T6  T5/T6   T5/T6  T5/T6    T5/T6 T5/T6  T5/T6 T5/T6  
+## 2 angles &lt;NA&gt;    A      B       A      B        A     B      A     B      
+## 3 60     &lt;NA&gt;    31.83… 1       31.52… 1        32.9… 0      31.8… 0      
+## 4 65     &lt;NA&gt;    31.66… 1       31.33… 1        32.2… 0      32.3… 0      
+## 5 70     &lt;NA&gt;    31.45… 1       31.09… 0.20200… 31.7… 0      32.5… 0      
+## 6 75     &lt;NA&gt;    31.08… 1       30.96… 0.44831… 31.2… 8.641… 32.3… 1      
+## # ... with 16 more variables: `2` &lt;chr&gt;, `2__1` &lt;chr&gt;, `8` &lt;chr&gt;,
+## #   `8__1` &lt;chr&gt;, `6` &lt;chr&gt;, `6__1` &lt;chr&gt;, `43` &lt;chr&gt;, `43__1` &lt;chr&gt;,
+## #   `48` &lt;chr&gt;, `48__1` &lt;chr&gt;, `46` &lt;chr&gt;, `46__1` &lt;chr&gt;, `4` &lt;chr&gt;,
+## #   `4__1` &lt;chr&gt;, `9` &lt;chr&gt;, `9__1` &lt;chr&gt;
+</code></pre>
+
+<p>This strategy gives us funky column names, and pushes two of the headers into data rows. Since the headers are in rows, they&rsquo;re a little harder to extract and work with.</p>
+
+<h2 id="attempt-2-tidyxl">Attempt 2 (tidyxl)</h2>
+
+<pre><code class="language-r">d2 &lt;- tidyxl::xlsx_cells('spreadsheet1.xlsx')
+head(d2)
+</code></pre>
+
+<pre><code>## # A tibble: 6 x 21
+##   sheet address   row   col is_blank data_type error logical numeric
+##   &lt;chr&gt; &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;lgl&gt;    &lt;chr&gt;     &lt;chr&gt; &lt;lgl&gt;     &lt;dbl&gt;
+## 1 T5T6  B1          1     2 FALSE    character &lt;NA&gt;  NA          NA 
+## 2 T5T6  C1          1     3 FALSE    numeric   &lt;NA&gt;  NA          44.
+## 3 T5T6  D1          1     4 FALSE    numeric   &lt;NA&gt;  NA          44.
+## 4 T5T6  E1          1     5 FALSE    numeric   &lt;NA&gt;  NA          10.
+## 5 T5T6  F1          1     6 FALSE    numeric   &lt;NA&gt;  NA          10.
+## 6 T5T6  G1          1     7 FALSE    numeric   &lt;NA&gt;  NA           3.
+## # ... with 12 more variables: date &lt;dttm&gt;, character &lt;chr&gt;,
+## #   character_formatted &lt;list&gt;, formula &lt;chr&gt;, is_array &lt;lgl&gt;,
+## #   formula_ref &lt;chr&gt;, formula_group &lt;int&gt;, comment &lt;chr&gt;, height &lt;dbl&gt;,
+## #   width &lt;dbl&gt;, style_format &lt;chr&gt;, local_format_id &lt;int&gt;
+</code></pre>
+
+<p>THe <code>xlsx_cells</code> captures the data in a tidy fashion, explicitly calling out rows and columns and other metadata within each cell. We can clean up this data using tidyverse functions:</p>
+
+<pre><code class="language-r">library(tidyverse)
+cleanData1 &lt;- function(d) {
+  angle &lt;- d %&gt;% filter(row &gt;= 4, col == 1) %&gt;% pull(numeric)
+  name &lt;- d %&gt;% filter(row %in% c(1,3), col &gt;= 3) %&gt;%
+    mutate(character = ifelse(is.na(character), as.character(numeric),
+                              character)) %&gt;%
+    select(row, col, character) %&gt;%
+    filter(!is.na(character)) %&gt;%
+    spread(row, character) %&gt;%
+    unite(ID, `1`:`3`, sep = '_') %&gt;%
+    pull(ID)
+  data &lt;- d %&gt;% filter(row &gt;= 4, col &gt;= 3) %&gt;%
+    filter(!is.na(numeric)) %&gt;%
+    select(row, col, numeric) %&gt;%
+    spread(col, numeric) %&gt;%
+    select(-row) %&gt;%
+    set_names(name) %&gt;%
+    cbind(angle) %&gt;%
+    gather(variable, value, -angle) %&gt;%
+    separate(variable, c('ID','Measure'), sep = '_') %&gt;%
+    spread(Measure, value) %&gt;%
+    select(ID, angle, A, B) %&gt;%
+    arrange(ID, angle)
+  return(data)
+}
+
+head(cleanData1(d2))
+</code></pre>
+
+<pre><code>##   ID angle        A        B
+## 1 10    60 31.52867 1.000000
+## 2 10    65 31.33477 1.000000
+## 3 10    70 31.09272 0.202002
+## 4 10    75 30.96078 0.448317
+## 5 10    80 30.79397 0.670876
+## 6 10    85 30.52185 0.461406
+</code></pre>
+
+<p>This is a lot of data munging, and though <code>dplyr</code> is powerful, it took a lot of trial and error to get the final pipeline done.</p>
+
+<p>Nonetheless, I was really psyched about <code>tidyxl</code>, since it made a job that would have taken manual manipulation automated (I had 12 spreadsheets like this process). I was going to write a blog post on this cool package that made my life dealing with this messy Excel file a piece of cake. But wait, there&rsquo;s more&hellip;</p>
+
+<h2 id="attempt2-tidyxl-unpivotr">Attempt2 (tidyxl + unpivotr)</h2>
+
+<p>I didn&rsquo;t know about <code>unpivotr</code> until this post:
+<!--html_preserve--><blockquote class="twitter-tweet"><p lang="en" dir="ltr">When your spreadsheet is too 😱😩😡 for readxl, tidyxl + unpivotr helps you tackle charming features like “data as formatting” and “data in the layout”. <a href="https://t.co/ABerpfHT8W">https://t.co/ABerpfHT8W</a></p>&mdash; Jenny Bryan (@JennyBryan) <a href="https://twitter.com/JennyBryan/status/938834824688689152?ref_src=twsrc%5Etfw">December 7, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!--/html_preserve-->
+So maybe all that complicated munging can be simplfied.</p>
+
+<pre><code class="language-r"># devtools::install_github('nacnudus/unpivotr')
+library(unpivotr)
+
+cleanData2 &lt;- function(d){
+  d %&gt;% select(row, col, data_type, numeric, character) %&gt;% 
+    behead('N', ID) %&gt;% 
+    behead('N', spine) %&gt;% 
+    behead('N', variable) -&gt; bl
+  bl1 &lt;- bl %&gt;% filter(variable == 'angles') %&gt;% spatter(variable) %&gt;% 
+    select(row, angles)
+  bl2 &lt;- bl %&gt;% filter(variable %in% c('A','B')) %&gt;% select(-spine, -col) %&gt;% 
+    spatter(ID) %&gt;% 
+    select(-character) %&gt;% 
+    gather(ID, value, -row, -variable) %&gt;% 
+    spread(variable, value)
+  final &lt;- bl1 %&gt;% left_join(bl2) %&gt;% arrange(ID, angles) %&gt;% select(ID, everything(),-row)
+  return(final)
+}
+
+cleanData2(d2)
+</code></pre>
+
+<pre><code>## # A tibble: 588 x 4
+##    ID    angles     A     B
+##    &lt;chr&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1 10       60.  31.5 1.00 
+##  2 10       65.  31.3 1.00 
+##  3 10       70.  31.1 0.202
+##  4 10       75.  31.0 0.448
+##  5 10       80.  30.8 0.671
+##  6 10       85.  30.5 0.461
+##  7 10       90.  30.3 0.245
+##  8 10       95.  30.0 0.159
+##  9 10      100.  29.7 0.170
+## 10 10      105.  29.2 0.421
+## # ... with 578 more rows
+</code></pre>
+
+<h2 id="attempt-3-tidyxl-unpivotr">Attempt 3 (tidyxl + unpivotr)</h2>
+
+<p>#<a href="https://twitter.com/JennyBryan/status/938834824688689152" target="_blank">https://twitter.com/JennyBryan/status/938834824688689152</a></p>
 
     </div>
 
     
 
 
-<div class="article-tags">
-  
-  <a class="btn btn-primary btn-outline" href="../../tags/python/">Python</a>
-  
-  <a class="btn btn-primary btn-outline" href="../../tags/r/">R</a>
-  
-</div>
-
 
 
 
     
-    
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Related</h3>
-      <ul>
-        
-        <li><a href="../../post/easy-way-to-tack-fortran-onto-python/">Easy (?) way to tack Fortran onto Python</a></li>
-        
-        <li><a href="../../post/genz-bretz-multivariate-normal-in-python/">Genz-Bretz multivariate normal in Python</a></li>
-        
-      </ul>
-    </div>
     
 
     

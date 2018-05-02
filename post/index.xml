@@ -13,6 +13,28 @@
     
     
     <item>
+      <title>Tidying messy Excel data (tidyxl)</title>
+      <link>/post/tidying-messy-excel-data-tidyxl/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tidying-messy-excel-data-tidyxl/</guid>
+      <description>Well, here&amp;rsquo;s what I was dealing with:
+Notice that we have 3 header rows, first with patient IDs, second with spine region, and third with variable names (A and B, to protect the innocent).
+Goal A dataset that, for each patient and each angle gives us corresponding values of A and B. So this would be a four-column data set with ID, angle, A and B.
+Attempt 1 (readxl) d1 &amp;lt;- readxl::read_excel(&#39;spreadsheet1.</description>
+    </item>
+    
+    <item>
+      <title>Tidying messy Excel data (Introduction)</title>
+      <link>/post/tidying-messy-data-1/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tidying-messy-data-1/</guid>
+      <description>Personal expressiveness, or how data is stored in a spreadsheet When you get data from a broad research community, the variability in how that data is formatted and stored is truly astonishing. Of course there are the standardized formats that are output from machines, like Next Generation Sequencing and other automated systems. That is a saving grace!
+But for smaller data, or data collected in the lab, the possibilities are truly endless!</description>
+    </item>
+    
+    <item>
       <title>Surprising result when exploring Rcpp gallery</title>
       <link>/post/surprising-result-when-exploring-rcpp-gallery/</link>
       <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
@@ -141,25 +163,6 @@ First of all, one caveat. I&amp;rsquo;m a huge fan of Hadley Wickham&amp;rsquo;s
       <description>This is an update to a previous post on reading fixed width formats in R.
 A new addition to the Hadleyverse is the package readr, which includes a function read_fwf to read fixed width format files. I&amp;rsquo;ll compare the LaF approach to the readr approach using the same dataset as before. The variable wt is generated from parsing the Stata load file as before.
 I want to read all the data in two columns: DRG and HOSPID.</description>
-    </item>
-    
-    <item>
-      <title>Creating new data with max values for each subject</title>
-      <link>/post/creating-new-data-with-max-values-for-each-subject-2/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/creating-new-data-with-max-values-for-each-subject-2/</guid>
-      <description>We have a data set dat with multiple observations per subject. We want to create a subset of this data such that each subject (with ID giving the unique identifier for the subject) contributes the observation where the variable X takes it&amp;rsquo;s maximum value for that subject.
-R solutions Hadleyverse solutions Using the excellent R package dplyr, we can do this using windowing functions included in dplyr. The following solution is available on StackOverflow, by junkka, and gets around the real possibility that multiple observations might have the same maximum value of X by choosing one of them.</description>
-    </item>
-    
-    <item>
-      <title>&#34;LaF&#34;-ing about fixed width formats</title>
-      <link>/post/laf-ing-about-fixed-width-formats/</link>
-      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/laf-ing-about-fixed-width-formats/</guid>
-      <description>If you have ever worked with US government data or other large datasets, it is likely you have faced fixed-width format data. This format has no delimiters in it; the data look like strings of characters. A separate format file defines which columns of data represent which variables. It seems as if the format is from the punch-card era, but it is quite an efficient format to store large data in (see this StackOverflow discussion).</description>
     </item>
     
   </channel>
